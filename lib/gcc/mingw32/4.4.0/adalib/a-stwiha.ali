@@ -1,0 +1,46 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.strings.wide_hash%b  a-stwiha.adb		249a757b NE OL PU SU
+W ada.strings%s		a-string.ads		a-string.ali
+
+U ada.strings.wide_hash%s  a-stwiha.ads		4d961fd7 NE OL PU SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-contai.ads		20070406091342 7b35f559
+D a-string.ads		20070406091342 87b4230b
+D a-stwiha.ads		20070406091342 b117c985
+D a-stwiha.adb		20090409232308 958dbcfe
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-stalib.ads		20090409232308 52b793d5
+X 1 ada.ads
+16K9*Ada 19e8 4|16r6 18r10 21r14 5|32r10 35r8 51r5
+X 2 a-contai.ads
+16K13*Containers 22e19 4|16w10 19r30 5|33r30 35r12
+19M9*Hash_Type 4|19r41 5|33r41 38r16 39r32 42r10
+X 3 a-string.ads
+16K13*Strings 35e16 4|18r14 21r18 5|32r14 51r9
+X 4 a-stwiha.ads
+18V22*Wide_Hash{2|19M9} 3|16k13 4|19>4 21r26 5|32b22 51l17 51t26
+19s4 Key{wide_string} 5|33b4 46r13 47r57
+X 5 a-stwiha.adb
+37V13*Rotate_Left{2|19M9} 38>7 39>7 40b30 47r14
+38m7 Value{2|19M9}
+39i7 Amount{natural}
+42m4 Tmp{2|19M9} 45m4 47m7 47r27 50r11
+46i8 J{integer} 47r62
+

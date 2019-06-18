@@ -1,0 +1,38 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.img_char%b	s-imgcha.adb		67c0f3d2 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.img_char%s	s-imgcha.ads		0b4960d5 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20090409232308 2e24a5ff
+D s-imgcha.ads		20090409232308 256dc52a
+D s-imgcha.adb		20090409232308 42ad36f8
+X 1 system.ads
+37K9*System 197e11 2|34r9 45r5 3|32r14 170r5
+X 2 s-imgcha.ads
+34K16*Img_Char 1|37k9 2|45l12 45e20 3|32b21 170l12 170t20
+37U14*Image_Character 38>7 39=7 40<7 3|38b14 168l8 168t23
+38e7 V{character} 3|39b7 125r10 126r28 134r13 135r28 150r56 164r19
+39s7 S{string} 3|40b7 43r22 126m10 128r13 135m10 137r13 138r16 152m16 153m16
+. 154m16 155m16 163m10 164m10 165m10
+40i7 P{natural} 3|41b7 129m13 131m13 139m16 141m16 156m16 166m10
+X 3 s-imgcha.adb
+45A15 Cname{string}<integer> 50r41 87r41
+47E15 C0_Range{character} 50r28 125r15
+50a7 C0(45A15) 126r24
+84E15 C1_Range{character} 87r28 134r18
+87a7 C1(45A15) 135r24
+150i16 VP{natural} 153r46 154r47 155r46
+

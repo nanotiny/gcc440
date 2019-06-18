@@ -1,0 +1,93 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnvnnnvnnvnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U gnat.io_aux%b		g-io_aux.adb		7909d65c NE OL PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+
+U gnat.io_aux%s		g-io_aux.ads		5df0ce30 EE NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-ioexce.ads		20070406091342 be0900a0
+D a-stream.ads		20090409232308 34aca5be
+D a-tags.ads		20090409232308 bfa07446
+D a-textio.ads		20090409232308 fe8af46e
+D a-unccon.ads		20070406091342 51e09df2
+D gnat.ads		20050905075126 96410e68
+D g-io_aux.ads		20050905080700 353b3436
+D g-io_aux.adb		20050905080700 add286c3
+D interfac.ads		20090409232308 a69cad5c
+D i-cstrea.ads		20090409232308 e1e064a9
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-ficobl.ads		20090409232308 8bb681e5
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-strops.ads		20090409232308 845f72d2
+D s-sopco3.ads		20090409232308 72ce1063
+D s-sopco4.ads		20090409232308 bc112723
+D s-sopco5.ads		20090409232308 191315e8
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+D s-wchcon.ads		20090409232308 ab028799
+X 1 ada.ads
+16K9*Ada 19e8 11|40r6 53r30 12|72r7 93r30 98r7
+X 8 a-textio.ads
+48K13*Text_IO 506e16 11|40w10 53r34 12|72r11 93r34 98r11
+51P9*File_Type(369R9) 11|53r42 12|93r42
+244U14*Get_Line 12|98r19
+249U14*Get_Line 12|72r19
+X 10 gnat.ads
+36K9*GNAT 39e9 11|42r9 56r5 12|36r14 84r26 107r5
+X 11 g-io_aux.ads
+42K14*IO_Aux 10|36k9 11|56l10 56e16 12|36b19 84r31 107l10 107t16
+44V13*File_Exists{boolean} 44>26 12|46b13 55l8 55t19
+44s26 Name{string} 12|46b26 48r38 52r21 52r37 53r16
+47V13*Get_Line{string} 12|63b13 84r38 86l8 86t16
+53V13*Get_Line{string} 53>23 12|93b13 103r26 105l8 105t16
+53p23 File{8|51P9} 12|93b23 98r29 103r36
+X 12 g-io_aux.adb
+38N4 Buflen 64r29 94r29
+48a7 Namestr{string} 52m7 53m7 54m27
+64a7 Buffer{string} 72m29 76r17 77r17 84r17
+69i7 Last{natural} 72m37 76r10 77r30
+94a7 Buffer{string} 98m35 100r17 101r17 103r17
+95i7 Last{natural} 98m43 100r10 101r30
+X 13 interfac.ads
+36K9*Interfaces 12|34r6 34r32 13|171e15
+X 14 i-cstrea.ads
+37K20*C_Streams 12|34w17 34r43 14|274e25
+42I12*int{16|49I12}
+200V13*file_exists{42I12} 12|54r14
+X 16 s-crtl.ads
+49I12*int{integer}
+

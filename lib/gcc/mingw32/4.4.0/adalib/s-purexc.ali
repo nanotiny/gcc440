@@ -1,0 +1,30 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.pure_exceptions%s  s-purexc.ads	8e6cc596 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20090409232308 2e24a5ff
+D s-purexc.ads		20090409232308 a0486069
+X 1 system.ads
+37K9*System 197e11 2|40r9 79r5
+X 2 s-purexc.ads
+40K16*Pure_Exceptions 1|37k9 2|79l12 79e27
+43R9*Exception_Type 61r18 62r18 63r18 64r18 67r35
+61r4*CE{43R9} 73m22
+62r4*PE{43R9} 74m22
+63r4*SE{43R9} 75m22
+64r4*TE{43R9} 76m22
+67U14*Raise_Exception 67>31 67>51 68b<ada,__gnat_raise_exception>24 69r22
+67r31 E{43R9}
+67s51 Message{string}
+

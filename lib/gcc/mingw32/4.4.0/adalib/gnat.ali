@@ -1,0 +1,19 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U gnat%s		gnat.ads		96410e68 NE OL PU PK
+
+D gnat.ads		20050905075126 96410e68
+D system.ads		20090409232308 2e24a5ff
+X 1 gnat.ads
+36K9*GNAT 39l5 39e9
+

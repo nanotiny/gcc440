@@ -1,0 +1,46 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnvnnnnnnnnnnvnnvnnvnnnnnnnnnnnnnnnnnn
+
+U system.strings%b	s-string.adb		3f280002 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.strings%s	s-string.ads		f6b035e2 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-uncdea.ads		20070406091342 dc667e6d
+D system.ads		20090409232308 2e24a5ff
+D s-string.ads		20090409232308 04f2ee70
+D s-string.adb		20090409232308 3bdaee72
+X 1 ada.ads
+16K9*Ada 19e8 4|42r6 51r26 5|45r35
+X 2 a-uncdea.ads
+17+9 Object 4|52r7 5|46r10
+18P9 Name(17+9) 4|52r25 5|46r33
+20u15*Unchecked_Deallocation 4|42w10 51r30 5|45r39
+X 3 system.ads
+37K9*System 197e11 4|44r9 65r5 5|36r14 63r5
+X 4 s-string.ads
+44K16*Strings 3|37k9 4|65l12 65e19 5|36b21 63l12 63t19
+47P9*String_Access(string) 52r33 56r53 5|43r11
+51U14*Free[2|20] 5|54r13
+56A9*String_List(47P9)<integer> 57r42 5|46r20
+57P9*String_List_Access(56A9) 60r33 5|42r33 46r41
+60U14*Free 60=20 5|42b14 61l8 61t12
+60p20 Arg{57P9} 5|42b20 51r10 52r19 53r18 60m19
+X 5 s-string.adb
+43p7 X{4|47P9} 53m13 54m19
+45U17 Free_Array[2|20] 60r7
+52i14 J{integer} 53r23
+

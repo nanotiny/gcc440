@@ -1,0 +1,46 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.crc32%b	s-crc32.adb		8574e966 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.crc32%s	s-crc32.ads		d46be82a BN NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D interfac.ads		20090409232308 a69cad5c
+D system.ads		20090409232308 2e24a5ff
+D s-crc32.ads		20090409232308 5cd3e089
+D s-crc32.adb		20090409232308 d9a709ef
+X 1 interfac.ads
+36K9*Interfaces 171e15 3|61w6 65r22 78r42 4|115r42 117r14
+57M9*Unsigned_32 3|65r33 78r53 4|115r53 117r25
+107V13*Shift_Right{57M9} 4|137r12
+X 2 system.ads
+37K9*System 197e11 3|63r9 85r5 4|36r14 140r5
+X 3 s-crc32.ads
+63K16*CRC32 2|37k9 3|85l12 85e17 4|36b21 140l12 140t17
+65M9*CRC32<1|57M9> 68r34 73r22 78r28 4|38r22 39r22 45r28 45r53 115r28 124r34
+. 133r33 134r20 134r29
+68U14*Initialize 68<26 69r19 4|124b14 127l8 127t18
+68m26 C{65M9} 4|124b26 126m7
+72U14*Update 73=7 74>7 75r19 4|133b14 138l8 138t14
+73m7 C{65M9} 4|133b22 137m7 137r25 137r49
+74e7 Value{character} 4|133b40 134r51
+78V13*Get_Value{1|57M9} 78>24 79r19 4|115b13 118l8 118t17
+78m24 C{65M9} 4|115b24 117r38
+X 4 s-crc32.adb
+38m4 Init{3|65M9} 126r12
+39m4 XorOut{3|65M9} 117r44
+45a4 Table(3|65M9) 137r35
+134m7 V{3|65M9} 137r42
+

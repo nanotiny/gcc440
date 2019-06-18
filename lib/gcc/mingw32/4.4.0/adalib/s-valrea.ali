@@ -1,0 +1,83 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnvnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U system.val_real%b	s-valrea.adb		c9db2a5e NE OL PK
+W system%s		system.ads		system.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.powten_table%s	s-powtab.ads		s-powtab.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+
+U system.val_real%s	s-valrea.ads		cae29fac NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20090409232308 2e24a5ff
+D s-exnllf.ads		20090409232308 47d2870b
+D s-powtab.ads		20090409232308 20dfe904
+D s-valrea.ads		20090409232308 e4c63a53
+D s-valrea.adb		20090409232308 57ec8465
+D s-valuti.ads		20090409232308 5a2e7d6c
+X 1 system.ads
+37K9*System 197e11 4|32r9 70r5 5|32r6 32r31 33r6 33r31 35r14 388r5
+X 3 s-powtab.ads
+34K16*Powten_Table 70e24 5|32w13 32r38
+37N4*Maxpow 5|124r44 125r45 126r61 127r39 338r24 339r36 340r30 348r27 349r36
+. 350r30
+45a4*Powten(long_long_float) 5|125r37 130r34 339r28 344r28 349r28 354r28
+X 4 s-valrea.ads
+32K16*Val_Real 1|37k9 4|70l12 70e20 5|35b21 388l12 388t20
+35V13*Scan_Real{long_long_float} 36>7 37^7 38>7 5|41b13 373l8 373t17 383r12
+36s7 Str{string} 5|42b7 110r37 149r19 150r19 151r36 163r18 169r10 175r13
+. 177r18 189r28 189r50 191r47 210r16 224r22 225r43 227r22 229r36 231r22 233r36
+. 272r22 273r36 280r22 289r29 305r31 310r34 324r39
+37p7 Ptr(integer) 5|43b7 151r44 163r23 164r12 165r7 273r44 295r13 315r10
+. 324r44
+38i7 Max{integer} 5|44b7 144r20 151r49 163r28 176r22 189r14 221r23 269r23
+. 273r49 284r29 305r18 310r21 324r49
+64V13*Value_Real{long_long_float} 64>25 5|379b13 386l8 386t18
+64s25 Str{string} 5|379b25 381r30 383r23 383r38 384r29
+X 5 s-valrea.adb
+46U17*Reset 47b<c,__gnat_init_float>25 162r7
+54i7 P{integer} 110r42 111m13 111r18 144r16 149r24 150r24 151m41 164m7 169r15
+. 175r18 176r18 177r23 189r10 189r33 189r55 191r52 206m13 206r18 210r21 212m16
+. 212r21 221r19 224r27 225r48 227r27 229r41 231r27 233r41 267m16 267r21 269r19
+. 272r27 273m41 280r27 281m22 281r27 284r25 289r34 295r24 305r13 305r36 306m13
+. 306r18 310r16 310r39 315r21
+57f7 Base{long_long_float} 204m13 250r37 259r32 263r37 302m10 332r10 333r25
+60f7 Uval{long_long_float} 125m22 125r30 130m19 130r27 138m16 138r24 170m10
+. 179m10 199r16 199r35 201m16 204r21 205m13 250m22 250r30 263m22 263r30 333m10
+. 333r18 339m13 339r21 344m13 344r21 349m13 349r21 354m13 354r21 368r21 370r20
+63E15 Digs{character} 149r34 169r21 177r33 224r33 310r45
+66i7 Scale{integer} 127m22 127r31 131m19 131r28 139m16 139r25 251m22 251r31
+. 262m22 262r31 324m7 324r16 333r33 337r13 338r16 340m13 340r22 343r13 344r36
+. 347r13 348r18 350m13 350r22 353r13 354r37
+69i7 Start{positive} 163m40 165r18
+72b7 Minus{boolean} 163m33 367r13
+75b7 Bad_Base{boolean} 200m16 260m22 360r10
+78i7 After_Point{natural} 115r30 139r33 211m16 241r33 262r39 280r45 282m22
+. 303m10
+81i7 Num_Saved_Zeroes{natural} 116m16 116r36 123r19 124r25 126m22 126r42
+. 130r42 131r36 133m19 242m19 242r39 249r22 250r45 251r39 252m22
+92U17 Scanf 105b17 157l11 157t16 171r10 311r16
+106i10 Digit{natural} 110m13 115r16 138r55
+191e13 Base_Char{character} 289r39
+192i13 Digit{natural} 225m19 228m19 232m19 241r19 257r46
+193f13 Fdigit{long_long_float} 257m19 259r22 263r44
+380f7 V{long_long_float} 383m7 385r14
+381i7 P{integer} 383m28 384r34
+X 6 s-valuti.ads
+34K16*Val_Util 5|33w13 33r38 6|113e20
+48U14*Scan_Sign 5|163r7
+79V13*Scan_Exponent{integer} 5|324r24
+83b7 Real{boolean} 5|324r54
+95U14*Scan_Trailing_Blanks 5|384r7
+99U14*Scan_Underscore 5|151r19 273r19
+

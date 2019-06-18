@@ -1,0 +1,106 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnvnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U system.bit_ops%b	s-bitops.adb		768fec35 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U system.bit_ops%s	s-bitops.ads		04e247f8 NE OL PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-bitops.ads		20090409232308 04e247f8
+D s-bitops.adb		20090409232308 cd506925
+D s-parame.ads		20090409232308 f32e56e9
+D s-stalib.ads		20090409232308 52b793d5
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 6|35r6 51r28
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 6|35w10 51r32
+X 4 system.ads
+37K9*System 197e11 5|34w6 36r9 45r16 47r16 49r16 56r15 58r15 67r16 69r16
+. 76r16 78r16 80r16 87r16 89r16 91r16 97r5 6|32w6 32r34 33r6 33r34 37r14
+. 39r26 143r16 145r16 215r5
+64M9*Address 5|45r23 47r23 49r23 56r22 58r22 67r23 69r23 76r23 78r23 80r23
+. 87r23 89r23 91r23 6|51r54 80r16 82r16 84r16 105r15 107r15 143r23 145r23
+. 161r16 163r16 165r16 186r16 188r16 190r16
+X 5 s-bitops.ads
+36K16*Bit_Ops 4|37k9 5|97l12 97e19 6|37b21 215l12 215t19
+44U14*Bit_And 45>7 46>7 47>7 48>7 49>7 6|79b14 98l8 98t15
+45m7 Left{4|64M9} 6|80b7 86r43
+46i7 Llen{natural} 6|81b7 91r10
+47m7 Right{4|64M9} 6|82b7 87r43
+48i7 Rlen{natural} 6|83b7 91r18 95r22
+49m7 Result{4|64M9} 6|84b7 88r43
+55V13*Bit_Eq{boolean} 56>7 57>7 58>7 59>7 6|104b13 136l8 136t14
+56m7 Left{4|64M9} 6|105b7 110r42
+57i7 Llen{natural} 6|106b7 114r10 119r40 120r40
+58m7 Right{4|64M9} 6|107b7 111r42
+59i7 Rlen{natural} 6|108b7 114r18
+66U14*Bit_Not 67>7 68>7 69>7 6|142b14 154l8 154t15
+67m7 Opnd{4|64M9} 6|143b7 147r43
+68i7 Len{natural} 6|144b7 151r22
+69m7 Result{4|64M9} 6|145b7 148r43
+75U14*Bit_Or 76>7 77>7 78>7 79>7 80>7 6|160b14 179l8 179t14
+76m7 Left{4|64M9} 6|161b7 167r43
+77i7 Llen{natural} 6|162b7 172r10
+78m7 Right{4|64M9} 6|163b7 168r43
+79i7 Rlen{natural} 6|164b7 172r18 176r22
+80m7 Result{4|64M9} 6|165b7 169r43
+86U14*Bit_Xor 87>7 88>7 89>7 90>7 91>7 6|185b14 204l8 204t15
+87m7 Left{4|64M9} 6|186b7 192r43
+88i7 Llen{natural} 6|187b7 197r10
+89m7 Right{4|64M9} 6|188b7 193r43
+90i7 Rlen{natural} 6|189b7 197r18 201r22
+91m7 Result{4|64M9} 6|190b7 194r43
+X 6 s-bitops.adb
+39A12 Bits_Array{10|58A9}<integer> 48r24
+48P9 Bits(39A12) 51r63 86r26 87r26 88r26 110r25 111r25 147r26 148r26 167r26
+. 168r26 169r26 192r26 193r26 194r26
+51V13 To_Bits[3|20]{48P9} 86r34 87r34 88r34 110r33 111r33 147r34 148r34 167r34
+. 168r34 169r34 192r34 193r34 194r34
+53N4 LE 60r11 60r32 61r11 61r32 62r11 62r32 63r11 63r32 64r11 64r32 65r11
+. 65r32 66r11 66r32
+59a4 Masks(10|54M9) 129r24
+72U14 Raise_Error 92r10 173r10 198r10 210b14 213l8 213t19
+86p7 LeftB{48P9} 96r25
+87p7 RightB{48P9} 96r39
+88p7 ResultB{48P9} 96r10
+95i11 J{integer} 96r19 96r32 96r47
+110p7 LeftB{48P9} 123r16 128r20
+111p7 RightB{48P9} 123r37 128r41
+119i13 BLen{natural} 123r28 123r50 128r27 128r49
+120i13 Bitc{natural} 126r19 129r31
+147p7 OpndB{48P9} 152r29
+148p7 ResultB{48P9} 152r10
+151i11 J{integer} 152r19 152r36
+167p7 LeftB{48P9} 177r25
+168p7 RightB{48P9} 177r38
+169p7 ResultB{48P9} 177r10
+176i11 J{integer} 177r19 177r32 177r46
+192p7 LeftB{48P9} 202r25
+193p7 RightB{48P9} 202r39
+194p7 ResultB{48P9} 202r10
+201i11 J{integer} 202r19 202r32 202r47
+X 10 s-unstyp.ads
+42K16*Unsigned_Types 6|33w13 33r41 39r33 10|210e26
+54M9*Packed_Byte 6|59r39
+58A9*Packed_Bytes1(54M9)<integer> 6|39r48
+

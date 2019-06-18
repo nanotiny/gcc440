@@ -1,0 +1,70 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.strings.wide_unbounded.wide_hash%b  a-swuwha.adb  4720d369 NE OL PR SU
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+
+U ada.strings.wide_unbounded.wide_hash%s  a-swuwha.ads  ecf88f26 NE OL PR SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-contai.ads		20070406091342 7b35f559
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-stream.ads		20090409232308 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-stwima.ads		20090409232308 0d039275
+D a-stwiun.ads		20090409232308 adf95c8d
+D a-swuwha.ads		20080324105732 3a3426f2
+D a-swuwha.adb		20090409232308 7d14f59b
+D a-tags.ads		20090409232308 bfa07446
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 9|18r6 20r10 23r22 10|32r10 35r8 51r5
+X 2 a-contai.ads
+16K13*Containers 22e19 9|18w10 21r40 10|33r40 35r12
+19M9*Hash_Type 9|21r51 10|33r51 38r16 39r32 42r10
+X 6 a-string.ads
+16K13*Strings 35e16 9|20r14 23r26 10|32r14 51r9
+X 8 a-stwiun.ads
+39K21*Wide_Unbounded 434e31 9|20r22 23r34 10|32r22 51r17
+42R9*Unbounded_Wide_String 402e14 9|21r10 10|33r10
+49P9*Wide_String_Access(wide_string)
+400p7*Reference{49P9} 10|47m61
+401i7*Last{natural} 10|46r22
+X 9 a-swuwha.ads
+20V37*Wide_Hash{2|19M9} 8|39k21 9|21>4 23r49 10|32b37 51l32 51t41
+21r4 Key{8|42R9} 10|33b4 46r18 47r57 47r61
+X 10 a-swuwha.adb
+37V13*Rotate_Left{2|19M9} 38>7 39>7 40b30 47r14
+38m7 Value{2|19M9}
+39i7 Amount{natural}
+42m4 Tmp{2|19M9} 45m4 47m7 47r27 50r11
+46i8 J{integer} 47r72
+

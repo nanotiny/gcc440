@@ -1,0 +1,50 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.string_ops_concat_5%b  s-sopco5.adb	fa683506 NE OL PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+
+U system.string_ops_concat_5%s  s-sopco5.ads	3737b017 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-secsta.ads		20090409232308 7bae3621
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-strops.ads		20090409232308 845f72d2
+D s-sopco3.ads		20090409232308 72ce1063
+D s-sopco4.ads		20090409232308 bc112723
+D s-sopco5.ads		20090409232308 191315e8
+D s-sopco5.adb		20090409232308 e37b20ee
+X 3 system.ads
+37K9*System 197e11 10|38r9 44r5 11|36r14 66r5
+78V13*"="{boolean} 11|44r20
+X 10 s-sopco5.ads
+38K16*String_Ops_Concat_5 3|37k9 10|44l12 44e31 11|36b21 66l12 66t31
+41V13*Str_Concat_5{string} 41>27 41>31 41>35 41>39 41>43 11|42b13 64l8 64t20
+41s27 S1{string} 11|42b27 44r10 49r39 53r25 53r37 56r16 56r34 56r57 57r16
+. 57r34 58r16 58r34 59r16 59r34 60r16
+41s31 S2{string} 11|42b31 45r17 49r51 57r57
+41s35 S3{string} 11|42b35 45r22 50r45 58r57
+41s39 S4{string} 11|42b39 45r27 51r45 59r57
+41s43 S5{string} 11|42b43 45r32 52r45 60r57
+X 11 s-sopco5.adb
+49i13 L12{natural} 50r39 57r45 58r27
+50i13 L13{natural} 51r39 58r45 59r27
+51i13 L14{natural} 52r39 59r45 60r27
+52i13 L15{natural} 53r48
+53a13 R{string} 56m13 57m13 58m13 59m13 60m13 60r34 61r20
+

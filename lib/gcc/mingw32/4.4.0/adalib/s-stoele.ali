@@ -1,0 +1,70 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnvvnnnnnnnnnnnnnnnnnn
+
+U system.storage_elements%b  s-stoele.adb	55ef7c79 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U system.storage_elements%s  s-stoele.ads	c3b2c80c BN NE OL PU PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+X 1 ada.ads
+16K9*Ada 19e8 5|36r6 43r10 45r10
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 5|36w10 43r14 45r14
+X 3 system.ads
+37K9*System 197e11 4|44r9 123r5 5|38r14 103r5
+64M9*Address 4|82r25 82r65 87r49 87r65 92r25 92r65 97r32 103r15 113r57 118r33
+. 5|43r52 45r36 52r33 57r57 59r14 64r25 64r65 69r49 69r65 74r25 74r65 79r32
+. 85r15
+68N4*Storage_Unit 4|66r37 67r33 78r41
+70N4*Memory_Size 4|111r32
+X 4 s-stoele.ads
+44K16*Storage_Elements 3|37k9 4|123l12 123e28 5|38b21 103l12 103t28
+56I9*Storage_Offset<integer> 64r29 64r55 77r13 82r42 87r25 92r42 97r48 104r15
+. 104r39 5|43r36 45r45 64r42 69r25 74r42 79r48 86r15 86r38 90r17
+64I12*Storage_Count{56I9}
+66M9*Storage_Element 67r8 70r31 77r49
+76A9*Storage_Array(66M9)<56I9> 78r8
+82V13*"+"{3|64M9} 82>18 82>34 5|64b13 67l8 67t11
+82m18 Left{3|64M9} 5|64b18 66r38
+82i34 Right{56I9} 5|64b34 66r70
+87V13*"+"{3|64M9} 87>18 87>41 5|69b13 72l8 72t11
+87i18 Left{56I9} 5|69b18 71r50
+87m41 Right{3|64M9} 5|69b41 71r71
+92V13*"-"{3|64M9} 92>18 92>34 5|74b13 77l8 77t11
+92m18 Left{3|64M9} 5|74b18 76r38
+92i34 Right{56I9} 5|74b34 76r70
+97V13*"-"{56I9} 97>18 97>24 5|79b13 82l8 82t11
+97m18 Left{3|64M9} 5|79b18 81r49
+97m24 Right{3|64M9} 5|79b24 81r69
+102V13*"mod"{56I9} 103>7 104>7 5|84b13 102l8 102t13
+103m7 Left{3|64M9} 5|85b7 91r25
+104i7 Right{56I9} 5|86b7 89r10 91r52
+111M9*Integer_Address 113r33 118r49 5|52r49 54r14 57r33 91r35
+113V13*To_Address{3|64M9} 113>25 114r34 115r26 116r26 5|57b13 60l8 60t18
+. 66r14 71r14 76r14 81r25
+113m25 Value{111M9} 5|57b25 59r23
+118V13*To_Integer{111M9} 118>25 119r34 120r26 121r26 5|52b13 55l8 55t18 66r26
+. 66r46 71r26 71r59 76r26 76r46 81r37 81r57 91r13
+118m25 Value{3|64M9} 5|52b25 54r31
+X 5 s-stoele.adb
+42V13 To_Address[2|20]{3|64M9} 66r58 71r38 76r58
+44V13 To_Offset[2|20]{4|56I9} 81r14
+

@@ -1,0 +1,63 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.address_operations%b  s-addope.adb	330db175 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+
+U system.address_operations%s  s-addope.ads	ed3ee3d4 BN NE OL PU PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-addope.ads		20090409232308 c31a462b
+D s-addope.adb		20090409232308 a1f76aac
+X 1 ada.ads
+16K9*Ada 19e8 5|36r6 43r22 44r22
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 5|36w10 43r26 44r26
+X 3 system.ads
+37K9*System 197e11 4|47r9 89r5 5|38r14 112r5
+64M9*Address 4|67r33 67r49 68r33 68r49 69r33 69r49 70r33 70r49 71r33 71r49
+. 78r33 78r49 79r33 79r49 5|40r24 43r48 44r52 53r33 53r49 62r33 62r49 71r33
+. 71r49 80r33 80r49 89r33 89r49 98r32 98r48 107r33 107r49
+X 4 s-addope.ads
+47K16*Address_Operations 3|37k9 4|89l12 89e30 5|38b21 112l12 112t30
+67V13*AddA{3|64M9} 67>19 67>25 81r26 5|53b13 56l8 56t12
+67m19 Left{3|64M9} 5|53b19 55r20
+67m25 Right{3|64M9} 5|53b25 55r31
+68V13*SubA{3|64M9} 68>19 68>25 82r26 5|107b13 110l8 110t12
+68m19 Left{3|64M9} 5|107b19 109r20
+68m25 Right{3|64M9} 5|107b25 109r31
+69V13*MulA{3|64M9} 69>19 69>25 83r26 5|89b13 92l8 92t12
+69m19 Left{3|64M9} 5|89b19 91r20
+69m25 Right{3|64M9} 5|89b25 91r31
+70V13*DivA{3|64M9} 70>19 70>25 84r26 5|71b13 74l8 74t12
+70m19 Left{3|64M9} 5|71b19 73r20
+70m25 Right{3|64M9} 5|71b25 73r31
+71V13*ModA{3|64M9} 71>19 71>25 85r26 5|80b13 83l8 83t12
+71m19 Left{3|64M9} 5|80b19 82r20
+71m25 Right{3|64M9} 5|80b25 82r33
+78V13*AndA{3|64M9} 78>19 78>25 86r26 5|62b13 65l8 65t12
+78m19 Left{3|64M9} 5|62b19 64r20
+78m25 Right{3|64M9} 5|62b25 64r33
+79V13*OrA{3|64M9} 79>19 79>25 87r26 5|98b13 101l8 101t11
+79m19 Left{3|64M9} 5|98b18 100r20
+79m25 Right{3|64M9} 5|98b24 100r32
+X 5 s-addope.adb
+40M9 IA 43r57 44r48
+43V13 I[2|20]{40M9} 55r17 55r28 64r17 64r30 73r17 73r28 82r17 82r30 91r17
+. 91r28 100r17 100r29 109r17 109r28
+44V13 A[2|20]{3|64M9} 55r14 64r14 73r14 82r14 91r14 100r14 109r14
+

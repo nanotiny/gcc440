@@ -1,0 +1,94 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnvnnnnnnvnnvnnnnnnnnnnnnnnn
+
+U system.standard_library%b  s-stalib.adb	4b33036a NE OL PK
+W system%s		system.ads		system.ali
+W system.memory%s	s-memory.adb		s-memory.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.standard_library%s  s-stalib.ads	03570e27 BN NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-memory.ads		20090409232308 04574b64
+D s-parame.ads		20090409232308 f32e56e9
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stalib.adb		20090409232308 11bc0846
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-traent.ads		20090409232308 bd5f2753
+X 1 ada.ads
+16K9*Ada 19e8 9|56r6 68r10
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 9|56w10 68r14
+X 4 system.ads
+37K9*System 197e11 9|55w6 58r9 68r36 141r19 279r5 10|48r6 56r6 63r14 75r7
+. 86r10 105r5
+64M9*Address 9|68r43 141r26
+X 5 s-memory.ads
+47K16*Memory 109e18 10|56w13
+X 7 s-soflin.ads
+50K16*Soft_Links 403e22 10|48w13 75r14 86r17
+65P9*No_Param_Proc
+177p4*Abort_Undefer{65P9} 10|75r25
+233p4*Adafinal{65P9} 10|86r28
+X 9 s-stalib.ads
+58K16*Standard_Library 4|37k9 9|279l12 279e28 10|63b21 105l12 105t28
+63P9*Big_String_Ptr(string) 64r8 68r52
+67V13*To_Ptr[3|20]{63P9}
+80A9*Image_Index_Table_8(short_short_integer)<integer>
+82A9*Image_Index_Table_16(short_integer)<integer>
+84A9*Image_Index_Table_32(integer)<integer>
+94P9*Raise_Action 156r20
+97R9*Exception_Data 98r42 125c9 162e14 179r35 188r32 197r32 206r32 215r32
+. 224r31
+98P9*Exception_Data_Ptr(97R9) 145r20
+101M9*Exception_Code 113r8 150r21
+125R9*Exception_Data
+126b7*Not_Handled_By_Others{boolean} 180r7 189r7 198r7 207r7 216r7 225r7
+133e7*Lang{character} 181r7 190r7 199r7 208r7 217r7 226r7
+138i7*Name_Length{natural} 182r7 191r7 200r7 209r7 218r7 227r7
+141m7*Full_Name{4|64M9} 183r7 192r7 201r7 210r7 219r7 228r7
+145p7*HTable_Ptr{98P9} 184r7 193r7 202r7 211r7 220r7 229r7
+150m7*Import_Code{101M9} 185r7 194r7 203r7 212r7 221r7 230r7
+156p7*Raise_Hook{94P9} 186r7 195r7 204r7 213r7 222r7 231r7
+169a4*Constraint_Error_Name{string} 182r32 183r32
+170a4*Program_Error_Name{string} 200r32 201r32
+171a4*Storage_Error_Name{string} 209r32 210r32
+172a4*Tasking_Error_Name{string} 218r32 219r32
+173a4*Abort_Signal_Name{string} 227r32 228r32
+175a4*Numeric_Error_Name{string} 191r32 192r32
+179r4*Constraint_Error_Def{125R9} 233m22
+188r4*Numeric_Error_Def{125R9} 234m22
+197r4*Program_Error_Def{125R9} 235m22
+206r4*Storage_Error_Def{125R9} 236m22
+215r4*Tasking_Error_Def{125R9} 237m22
+224r4*Abort_Signal_Def{125R9} 238m22
+240i4*Local_Partition_ID{natural}
+245E9*Exception_Trace_Kind 258e7 262r22
+246n7*RM_Convention{245E9} 262r46
+251n7*Every_Raise{245E9}
+255n7*Unhandled_Raise{245E9}
+262e4*Exception_Trace{245E9} 263r19
+270U14*Abort_Undefer_Direct 271r19 10|73b14 76l8 76t28
+275U14*Adafinal 10|82b14 88l8 88t16
+X 10 s-stalib.adb
+65b4 Runtime_Finalized{boolean} 84r14 85m10
+94U14 Break_Start 95r22 100b14 103l8 103t19
+

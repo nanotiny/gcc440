@@ -1,0 +1,128 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnvnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U ada.wide_wide_text_io.decimal_io%b  a-ztdeio.adb  3093c1ed NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+W ada.wide_wide_text_io.decimal_aux%s  a-ztdeau.adb  a-ztdeau.ali
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+W system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.wide_wide_text_io.decimal_io%s  a-ztdeio.ads  f24cb490 BN NE OL PK GE
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-ioexce.ads		20070406091342 be0900a0
+D a-stream.ads		20090409232308 34aca5be
+D a-tags.ads		20090409232308 bfa07446
+D a-unccon.ads		20070406091342 51e09df2
+D a-ztexio.ads		20090409232308 c02e7195
+D a-ztdeau.ads		20090409232308 9b4aec5a
+D a-ztdeio.ads		20090409232308 3262c505
+D a-ztdeio.adb		20090409232308 37306cdf
+D interfac.ads		20090409232308 a69cad5c
+D i-cstrea.ads		20090409232308 e1e064a9
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-ficobl.ads		20090409232308 8bb681e5
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+D s-wchcon.ads		20090409232308 ab028799
+D s-wchwts.ads		20090409232308 058903f4
+X 1 ada.ads
+16K9*Ada 19e8 11|45r9 84r5 12|32r6 37r14 39r19 42r24 170r5
+X 9 a-ztexio.ads
+49K13*Wide_Wide_Text_IO 1|16k9 9|518e26 11|45r13 84r9 12|32r10 37r18 39r23
+. 42r28 170r9
+51P9*File_Type(370R9) 11|52r15 61r14 12|39r41 51r15 112r14
+73I12*Field{integer} 11|47r19 48r19 49r19 54r15 58r15 63r14 64r14 65r14 69r14
+. 70r14 71r14 81r14 82r14 12|53r15 73r15 114r14 115r14 116r14 136r14 137r14
+. 138r14 147r14 148r14
+121V13*Current_Input{51P9} 12|76r12
+122V13*Current_Output{51P9} 12|141r12
+298X4*Data_Error 12|68r38 104r38
+X 10 a-ztdeau.ads
+41K39*Decimal_Aux 93e38 12|32w28 42r46
+43V13*Get_Dec{integer} 12|62r27
+48V13*Get_LLD{long_long_integer} 12|57r27
+53V13*Gets_Dec{integer} 12|100r25
+58V13*Gets_LLD{long_long_integer} 12|95r25
+63U14*Put_Dec 12|126r14
+71U14*Put_LLD 12|120r14
+79U14*Puts_Dec 12|162r14
+86U14*Puts_LLD 12|157r14
+X 11 a-ztdeio.ads
+43D9 Num 48r28 53r19 57r19 62r14 68r14 75r18 80r14 12|44r32 52r19 56r10 57r18
+. 62r18 72r19 81r18 91r10 94r18 99r18 113r14 119r10 135r14 146r14 153r10
+45k31*Decimal_IO 9|49k13 11|43z9 84l27 84e37 12|37b36 170l27 170t37
+47i4*Default_Fore{9|73I12} 63r23 69r23 12|114r23 136r23
+48i4*Default_Aft{9|73I12} 64r23 70r23 81r23 12|115r23 137r23 147r23
+49i4*Default_Exp{9|73I12} 65r23 71r23 82r23 12|116r23 138r23 148r23
+51U14*Get 52>7 53<7 54>7 12|50b14 69l8 69t11 76r7
+52p7 File{9|51P9} 12|51b7 57r41 62r41
+53*7 Item{43D9} 12|52b7 57m10 62m10
+54i7 Width{9|73I12} 12|53b7 57r48 62r48
+56U14*Get 57<7 58>7 12|71b14 77l8 77t11
+57*7 Item{43D9} 12|72b7 76m27
+58i7 Width{9|73I12} 12|73b7 76r33
+60U14*Put 61>7 62>7 63>7 64>7 65>7 12|111b14 132l8 132t11 141r7
+61p7 File{9|51P9} 12|112b7 123r18 129r18
+62*7 Item{43D9} 12|113b7 123r44 129r34
+63i7 Fore{9|73I12} 12|114b7 124r13 129r41
+64i7 Aft{9|73I12} 12|115b7 124r19 129r47
+65i7 Exp{9|73I12} 12|116b7 124r24 129r52
+67U14*Put 68>7 69>7 70>7 71>7 12|134b14 142l8 142t11
+68*7 Item{43D9} 12|135b7 141r28
+69i7 Fore{9|73I12} 12|136b7 141r34
+70i7 Aft{9|73I12} 12|137b7 141r40
+71i7 Exp{9|73I12} 12|138b7 141r45
+73U14*Get 74>7 75<7 76<7 12|79b14 105l8 105t11
+74s7 From{wide_wide_string} 12|80b7 84r58
+75*7 Item{43D9} 12|81b7 94m10 99m10
+76i7 Last{positive} 12|82b7 95m38 100m38
+78U14*Put 79<7 80>7 81>7 82>7 12|144b14 168l8 168t11
+79s7 To{wide_wide_string} 12|145b7 150r19 150r31 166m10
+80*7 Item{43D9} 12|146b7 158r35 162r36
+81i7 Aft{9|73I12} 12|147b7 158r42 162r43
+82i7 Exp{9|73I12} 12|148b7 158r47 162r48
+X 12 a-ztdeio.adb
+39P12 TFT{9|51P9} 57r36 62r36 123r13 129r13
+42K12 Aux=42:46 57r23 62r23 95r21 100r21 120r10 126r10 157r10 162r10
+44i4 Scale{integer} 57r55 62r55 95r64 100r64 124r29 129r57 158r52 162r53
+84a7 S{string} 95r35 100r35
+150a7 S{string} 158m13 162m24 165r16 166r60
+165i11 J{integer} 166r14 166r63
+X 15 system.ads
+37K9*System 12|34r6 34r26 35r6 35r26 15|197e11
+X 31 s-wchcon.ads
+43K16*WCh_Con 12|34w13 34r33 31|222e19
+96I9*WC_Encoding_Method<short_short_integer>
+110i4*WCEM_Upper{96I9} 12|84r64
+X 32 s-wchwts.ads
+39K16*WCh_WtS 12|35w13 35r33 32|63e19
+58V13*Wide_Wide_String_To_String{string} 12|84r30
+

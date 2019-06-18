@@ -1,0 +1,54 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U sequential_io%s	sequenio.ads		f40118f0 NE OL
+W ada%s			ada.ads			ada.ali
+W ada.sequential_io%s
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-ioexce.ads		20070406091342 be0900a0
+D a-sequio.ads		20090409232308 fefacb21
+D a-sequio.adb		20090409232308 2c9ec41c
+D a-stream.ads		20090409232308 34aca5be
+D a-tags.ads		20090409232308 bfa07446
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20090409232308 a69cad5c
+D i-cstrea.ads		20090409232308 e1e064a9
+D sequenio.ads		20080801103346 0afbd3d1
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-ficobl.ads		20090409232308 8bb681e5
+D s-fileio.ads		20090409232308 42b99b37
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-sequio.ads		20090409232308 d8b3a580
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 13|22r6 24r39
+X 6 a-sequio.ads
+43k13*Sequential_IO 158e22 13|22w10 24r43
+X 13 sequenio.ads
+24k17*Sequential_IO
+

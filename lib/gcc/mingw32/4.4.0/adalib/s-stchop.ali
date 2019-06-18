@@ -1,0 +1,116 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnvnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnvnvvvrvnnnnnnnnnnnnnnn
+
+U system.stack_checking.operations%b  s-stchop.adb  292b2f7a NE OL PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.stack_checking%s  s-stache.adb		s-stache.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U system.stack_checking.operations%s  s-stchop.ads  ed51e533 NE OL PR PK
+W system%s		system.ads		system.ali
+W system.stack_checking%s  s-stache.adb		s-stache.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-parame.ads		20090409232308 f32e56e9
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stchop.ads		20090409232308 25bcb328
+D s-stchop.adb		20090409232308 87324074
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-traent.ads		20090409232308 bd5f2753
+X 4 system.ads
+37K9*System 197e11 9|43r6 45r9 65r42 69r20 70r20 82r5 10|40r6 40r35 41r6
+. 41r29 42r6 43r6 45r14 90r20 91r20 117r21 139r28 142r25 153r31 198r23 203r32
+. 285r5
+64M9*Address 9|65r49 69r27 10|90r27 114r33 117r28 166r34 175r34 198r30 203r39
+66m4*Null_Address{64M9} 10|127r26 141r31 153r38
+74V13*"<"{boolean} 10|174r31 213r27 231r28 262r33
+75V13*"<="{boolean} 10|224r28 245r36
+76V13*">"{boolean} 10|165r31 210r27 226r28 265r33
+77V13*">="{boolean} 10|229r28 248r36
+78V13*"="{boolean} 10|127r24 141r28 153r28
+X 5 s-crtl.ads
+37K16*CRTL 202e16 10|43w13 139r35 142r32
+63V13*atoi{integer} 10|142r37
+122V13*getenv{4|64M9} 10|139r40
+X 6 s-parame.ads
+49K16*Parameters 202e22 10|41w13 41r36
+56I9*Task_Storage_Size<integer>
+59I9*Size_Type<56I9>
+94i4*Default_Env_Stack_Size{59I9} 10|134r46
+99b4*Stack_Grows_Down{boolean} 10|159r13 209r11 212r15 223r11 228r15 244r14
+. 247r18 261r14 264r18
+X 7 s-soflin.ads
+50K16*Soft_Links 403e22 10|42w13 93r43 125r19 186r10
+80P9*Get_Integer_Call(integer)
+100P9*Get_Stack_Access_Call(8|62P9)
+187p4*Check_Abort_Status{80P9} 10|186r21
+257p4*Get_Stack_Info{100P9} 10|93r54 125r30
+X 8 s-stache.ads
+44K16*Stack_Checking 4|37k9 8|84e26 9|45r16 82r12 10|45r21 285r12
+53m7*Limit{4|64M9} 10|102m16 153r22 154r39 163m22 165r25 166m25 170m22 174r25
+. 175m25 226r43 231r43 262r44 265r44
+54m7*Base{4|64M9} 10|127r19 154m22 156m22 163r40 165r42 170r40 174r42 224r44
+. 229r44 245r48 248r48 258m22
+55i7*Size{12|56I9} 10|133r22 134m22 145m28 163r56 170r56
+62P9*Stack_Access(52R9) 9|48r42 59r50 65r65 77r20 10|50r31 50r52 79r50 93r27
+. 110r31 110r52 116r21 198r46 202r32 239r30 278r42
+70b4*Multi_Processor{boolean} 10|280r14
+80p4 Null_Stack{62P9} 9|77r36 10|82r16
+X 9 s-stchop.ads
+45K31*Operations 8|44k16 9|82l27 82e37 10|45b36 285l27 285t37
+48U14*Update_Stack_Cache 48>34 10|278b14 283l8 283t26
+48p34 Stack{8|62P9} 10|278b34 281r19
+59U14*Invalidate_Stack_Cache 59>38 10|79b14 83l8 83t30
+59p38 Any_Stack{8|62P9} 10|79b38 80r29
+65V13*Stack_Check{8|62P9} 65>26 80r22 10|197b13 272l8 272t19
+65m26 Stack_Address{4|64M9} 10|198b7 210r13 213r13 226r14 231r14 262r19 265r19
+68U14*Notify_Stack_Attributes 69>7 70>7 10|89b14 103l8 103t31
+69m7 Initial_SP{4|64M9} 10|90b7 102r25
+70i7 Size{12|56I9} 10|91b7 99r28
+77p4 Cache{8|62P9} 79m22 10|82m7 202r48 239m62 281m10
+X 10 s-stchop.adb
+47N4 Kilobyte 145r61
+49V13 Set_Stack_Info{8|62P9} 50^7 109b13 191l8 191t22 239r46
+50p7 Stack(8|62P9) 110b7 182r7
+93p7 My_Stack{8|62P9} 102r7
+112R12 Frame_Mark 113r24
+113r7 Frame_Location{112R12} 114m44
+114m7 Frame_Address{4|64M9} 156r30
+116p7 My_Stack{8|62P9} 125m7 127r10 133r13 134r13 145r19 153r13 154r13 154r30
+. 156r13 163r13 163r31 163r47 165r16 165r33 166r16 170m13 170r31 170r47 174r16
+. 174r33 175m16 182r20 190r14
+117m7 Limit_Chars{4|64M9} 139m13 141r16 142r43
+118i7 Limit{integer} 142m16 144r19 145r52
+200R12 Frame_Marker 201r23
+201r7 Marker{200R12} 203m50
+202p7 Cached_Stack{8|62P9} 224r31 226r30 229r31 231r30 234r17
+203m7 Frame_Address{4|64M9} 210r29 213r29 224r14 229r14 245r22 248r22 258r30
+237q7 Full_Check 271l11 271e21
+239p10 My_Stack{8|62P9} 245r39 248r39 258r13 262r35 265r35 270r17
+X 12 s-stoele.ads
+44K16*Storage_Elements 9|43w13 70r27 10|40w13 40r42 91r27 12|123e28
+56I9*Storage_Offset<integer> 9|70r44 10|91r44 134r30 145r36
+82V13*"+"{4|64M9} 10|170r45
+92V13*"-"{4|64M9} 10|163r45
+

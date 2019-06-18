@@ -1,0 +1,51 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -fno-optimize-sibling-calls
+A -g
+A -gnatp
+A -gnatg
+A -g
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.traceback%b	s-traceb.adb		9c49ee35 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.traceback%s	s-traceb.ads		444a7117 NE OL PK
+W system%s		system.ads		system.ali
+
+D system.ads		20090409232308 2e24a5ff
+D s-traceb.ads		20090409232308 6a6ed4e8
+D s-traceb.adb		20090409232308 f6273add
+X 1 system.ads
+37K9*System 197e11 2|45r9 52r21 55r21 55r39 56r21 56r39 85r19 91r5 3|41r14
+. 48r19 64r21 66r21 67r21 73r21 76r21 76r39 77r21 77r39 95r5
+64M9*Address 2|52r28 55r28 56r28 85r26 3|48r26 64r28 66r28 67r28 73r28 76r28
+. 77r28
+66m4*Null_Address{64M9} 2|55r46 56r46 3|76r46 77r46
+X 2 s-traceb.ads
+45K16*Traceback 1|37k9 2|91l12 91e21 3|41b21 95l12 95t21
+51U14*Call_Chain 52>7 53>7 54<7 55>7 56>7 57>7 3|55r7 72b14 93l8 93t18
+52m7 Traceback{1|64M9} 3|73b7 88r40
+53i7 Max_Len{natural} 3|74b7 89r40
+54i7 Len{natural} 3|75b7 88m7
+55m7 Exclude_Min{1|64M9} 3|76b7 90r40
+56m7 Exclude_Max{1|64M9} 3|77b7 91r40
+57i7 Skip_Frames{natural} 3|78b7 92r40
+84V13*C_Call_Chain{natural} 85>7 86>7 88r22 3|47b13 57l8 57t20
+85m7 Traceback{1|64M9} 3|48b7 55r19
+86i7 Max_Len{natural} 3|49b7 55r30
+X 3 s-traceb.adb
+52i7 Val{natural} 55m39 56r14
+63V13 Backtrace{integer} 64>7 65>7 66>7 67>7 68>7 70b<c,__gnat_backtrace>22
+. 88r14
+64m7 Traceback{1|64M9} 88r25
+65i7 Len{integer} 89r25
+66m7 Exclude_Min{1|64M9} 90r25
+67m7 Exclude_Max{1|64M9} 91r25
+68i7 Skip_Frames{integer} 92r25
+

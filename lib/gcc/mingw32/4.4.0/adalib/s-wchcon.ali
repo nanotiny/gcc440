@@ -1,0 +1,50 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnn
+
+U system.wch_con%b	s-wchcon.adb		743d3d0d NE OL PK
+W system%s		system.ads		system.ali
+
+U system.wch_con%s	s-wchcon.ads		85262266 BN NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20090409232308 2e24a5ff
+D s-wchcon.ads		20090409232308 ab028799
+D s-wchcon.adb		20090409232308 df3fba94
+X 1 system.ads
+37K9*System 197e11 2|43r9 222r5 3|36r14 86r5
+77V13*">="{boolean} 3|82r43
+X 2 s-wchcon.ads
+43K16*WCh_Con 1|37k9 2|222l12 222e19 3|36b21 86l12 86t19
+96I9*WC_Encoding_Method<short_short_integer> 102r24 110r26 119r30 128r24
+. 136r25 158r29 171r42 183r6 187r6 195r43 205r59 209r56 216r12 3|42r59 44r21
+. 53r56 78r12
+102i4*WCEM_Hex{96I9} 172r7 183r31 183r43 196r7 3|56r17
+110i4*WCEM_Upper{96I9} 173r7 187r31 197r7 3|58r17
+119i4*WCEM_Shift_JIS{96I9} 174r7 198r7 3|60r17
+128i4*WCEM_EUC{96I9} 175r7 199r7 3|62r17
+136i4*WCEM_UTF8{96I9} 176r7 187r45 200r7 3|64r17
+158i4*WCEM_Brackets{96I9} 177r7 201r7 3|66r17
+171a4*WC_Encoding_Letters(character) 3|45r17
+182I12*WC_ESC_Encoding_Method{96I9} 3|83r24
+186I12*WC_Upper_Half_Encoding_Method{96I9} 3|81r21
+191N4*WC_Longest_Sequence
+195a4*WC_Longest_Sequences(natural)
+205V13*Get_WC_Encoding_Method{96I9} 205>37 3|42b13 51l8 51t30
+205e37 C{character} 3|42b37 45r13
+209V13*Get_WC_Encoding_Method{96I9} 209>37 3|53b13 70l8 70t30
+209s37 S{string} 3|53b37 55r13 57r13 59r13 61r13 63r13 65r13
+214V13*Is_Start_Of_Encoding{boolean} 215>7 216>7 217r19 3|76b13 84l8 84t28
+215e7 C{character} 3|77b7 82r40 83r56
+216i7 EM{96I9} 3|78b7 81r15 83r18
+X 3 s-wchcon.adb
+44i11 Method{2|96I9} 45r38 46r20
+

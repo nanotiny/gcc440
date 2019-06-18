@@ -1,0 +1,209 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnvnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnvnnvnnnnnnnnnnnnnvnvvnnvnnnnnnnnnnnnnnn
+
+U system.stack_usage%b	s-stausa.adb		66f42c87 NE OL PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.crtl%s		s-crtl.ads		s-crtl.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.io%s		s-io.adb		s-io.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
+
+U system.stack_usage%s	s-stausa.ads		41c587ba BN NE OL PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20090409232308 a69cad5c
+D system.ads		20090409232308 2e24a5ff
+D s-atacco.ads		20090409232308 60789a20
+D s-atacco.adb		20090409232308 7bf357a2
+D s-crtl.ads		20090409232308 997234a1
+D s-imgint.ads		20090409232308 f77d133c
+D s-io.ads		20090409232308 0212e19c
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stausa.ads		20090409232308 6ab7dd35
+D s-stausa.adb		20090409232308 640d7266
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-strops.ads		20090409232308 845f72d2
+D s-sopco3.ads		20090409232308 72ce1063
+D s-sopco4.ads		20090409232308 bc112723
+D s-sopco5.ads		20090409232308 191315e8
+D s-traent.ads		20090409232308 bd5f2753
+X 4 interfac.ads
+36K9*Interfaces 171e15 15|35w6 212r26 264r48 266r28 16|40r8
+57M9*Unsigned_32 15|212r37 264r59 266r39 16|324r26
+X 5 system.ads
+37K9*System 197e11 15|32w6 33r6 34r6 37r9 40r24 46r15 47r15 264r10 298r31
+. 343r5 16|32r6 33r6 34r6 36r14 37r8 38r8 39r8 123r10 136r10 150r10 198r26
+. 216r27 228r27 235r16 630r5
+64M9*Address 15|46r22 298r38 16|198r33
+66m4*Null_Address{64M9} 16|223r30
+68N4*Storage_Unit 15|267r63
+75V13*"<="{boolean} 16|339r27
+76V13*">"{boolean} 16|483r30
+78V13*"="{boolean} 16|223r27
+X 6 s-atacco.ads
+39k16*Address_To_Access_Conversions 75e41 15|34w13 264r17
+X 8 s-crtl.ads
+37K16*CRTL 202e16 16|33w13 216r34 228r34
+63V13*atoi{integer} 16|228r39
+122V13*getenv{5|64M9} 16|216r39
+X 10 s-io.ads
+37K16*IO 64e14 16|34w13 39r15
+44U14*Put 16|452r7 453r7 454r7 455r7 456r7 457r7 458r7 528r13 547r10
+47U14*New_Line 16|459r7 534r10 550r10
+51V13*Standard_Error{49E9} 16|451r19 476r19
+54U14*Set_Output 16|451r7 476r7
+X 11 s-parame.ads
+49K16*Parameters 202e22 16|32w13 123r17 136r17 150r17
+99b4*Stack_Grows_Down{boolean} 16|123r28 136r28 150r28
+X 15 s-stausa.ads
+37K16*Stack_Usage 5|37k9 15|343l12 343e23 16|36b21 630l12 630t23
+40K12*SSE=40:31 42r29
+42M12*Stack_Address{18|111M9} 46r38 211r26 282r29 285r26 288r30 294r25 335r17
+. 336r17 16|323r26 355r17 356r17
+45V13*To_Stack_Address=47:39{18|111M9} 16|269r11 294r15 296r15 298r45 299r42
+. 402r21
+46m7 Value{5|64M9}
+49R9*Stack_Analyzer 189r44 207r33 223r48 245r40 269c9 305e14 307r32 16|253r44
+. 319r33 370r48 558r40
+183U14*Initialize 183>26 184r22 16|196b14 247l8 247t18
+183i26 Buffer_Size{natural} 16|196b26 203r51
+189U14*Fill_Stack 189=26 16|237r13 253b14 312l8 312t18
+189r26 Analyzer{49R9} 16|253b26 268r11 272r36 277m10 279m10 280r12 285r34
+. 288r30 290m10 292r13 293m13 295m13 298m13 299m13 307r13 308r13 310r18 310r45
+206U14*Initialize_Analyzer 207=7 208>7 209>7 210>7 211>7 212>7 16|230r13
+. 318b14 348l8 348t27
+207r7 Analyzer{49R9} 16|319b7 329m7 330m7 331m7 332m7 333m7 335m7 340m10
+. 342m10
+208s7 Task_Name{string} 16|320b7 339r10 340r35 340r56 343r12 343r23 344r25
+209i7 Stack_Size{natural} 16|321b7 330r30
+210i7 Max_Pattern_Size{natural} 16|322b7 331r32
+211m7 Bottom{42M12} 16|323b7 329r35
+212m7 Pattern{4|57M9} 16|324b7 332r27
+220b4*Is_Enabled{boolean} 16|214m7
+223U14*Compute_Result 223=30 16|370b14 410l8 410t22 479r10
+223r30 Analyzer{49R9} 16|370b30 377r33 378r29 381m7 381r40 383r10 400r29
+. 401m16
+245U14*Report_Result 245>29 16|480r10 558b14 628l8 628t21
+245r29 Analyzer{49R9} 16|558b29 560r38 561r38 566r9 567r25 567r52 570r10
+. 575r32 576r32 579r22 580r22 584r10 588r24 597r47 622r16
+251U14*Output_Results 255r22 16|466b14 552l8 552t22
+259N4 Task_Name_Length 270r32 312r32 16|339r30 344r43 472r22
+263K12 Unsigned_32_Addr[6|39]
+266M12 Pattern_Type{4|57M9} 267r36 279r17 16|50r52 51r39
+267N4 Bytes_Per_Pattern 16|285r58 377r57
+270a7*Task_Name{string} 16|335m16 340m19 342m19 560r47
+273i7*Stack_Size{natural} 16|330m16 561r47 566r18 575r41 576r41 597r56
+276i7*Pattern_Size{natural} 16|272r45 277m19 279m19 280r21 285r43 292r22
+. 307r22 308r22 331m16 377r42 383r19 570r19
+279m7*Pattern{266M12} 16|288r39 332m16 400r38
+282m7*Bottom_Pattern_Mark{42M12} 16|293m22 298m22 310r54 381r49
+285m7*Top_Pattern_Mark{42M12} 16|295m22 299m22 310r27 567r34
+288m7*Topmost_Touched_Mark{42M12} 16|381m16 401m25 579r31
+294m7*Bottom_Of_Stack{42M12} 16|268r20 329m16 567r61 580r31
+298m7*Stack_Overlay_Address{5|64M9} 16|290m19 378r38
+302i7*Result_Id{positive} 16|333m16 584r19 588r33 622r25
+307r4 Environment_Task_Analyzer{49R9} 16|231m16 237m25 479m26 480r25
+309b4 Compute_Environment_Task{boolean} 16|239m13 245m10 478r10
+311R9 Task_Result 322e14 324r59 16|178r39 183r28 416r39 430r28 559r17
+312a7*Task_Name{string} 16|206r13 454r19 560r20
+314i7*Min_Measure{natural} 16|207r13 417r63 562r20 575m17 578m17 581r39
+317i7*Max_Measure{natural} 16|208r13 418r63 491r33 492r57 563r20 576m17 581m17
+321i7*Max_Size{natural} 16|209r13 435r65 497r33 498r51 561r20
+324A9 Result_Array_Type(311R9)<integer> 325r40 16|203r27
+325P9 Result_Array_Ptr(324A9) 327r19
+327p4 Result_Array{325P9} 328m22 16|203m7 204r7 468r59 483r10 488r19 491r16
+. 492r17 497r16 498r34 505r29 538r19 541r19 584r32 588r10
+331i4 Next_Id{positive} 16|333r29 347m7 347r18 489r28 539r28
+334V13 Stack_Size{natural} 335>7 336>7 337r19 16|267r9 309r15 354b13 364l8
+. 364t18 567r13 578r32
+335m7 SP_Low{42M12} 16|355b7 359r10 360r26 362r36
+336m7 SP_High{42M12} 16|356b7 359r19 360r35 362r26
+X 16 s-stausa.adb
+50A9 Stack_Slots(15|266M12)<integer> 51r8 56r36 96r40 100r43 104r42 108r41
+. 121r40 134r43 147r42 161r41 284r26 377r15
+96V13 Top_Slot_Index_In{integer} 96>32 112r26 121b13 128l8 128t25 296r40
+. 392r45
+96a32 Stack{50A9} 121b32 124r17 126r17
+100V13 Bottom_Slot_Index_In{integer} 100>35 113r26 134b13 141l8 141t28 294r40
+. 393r45
+100a35 Stack{50A9} 134b35 137r17 139r17
+104V13 Push_Index_Step_For{integer} 104>34 114r26 147b13 155l8 155t27 163r15
+104a34 Stack{50A9} 147b34 148r28
+108V13 Pop_Index_Step_For{integer} 108>33 115r26 161b13 164l8 164t26 394r45
+108a33 Stack{50A9} 161b33 163r36
+173a4 Index_Str{string} 439r22 529r16 548r13
+174a4 Task_Name_Str{string} 472r41 529r36 548r33
+175a4 Stack_Size_Str{string} 512r49 520r16 521r38 530r18 549r15 606r31 609r38
+176a4 Actual_Size_Str{string} 516r49 524r16 525r38 531r39 549r40 615r33 618r38
+178V13 Get_Usage_Range{string} 178>30 416b13 422l8 422t23 436r43 505r12 595r32
+178r30 Result{15|311R9} 416b30 417r56 418r56
+181U14 Output_Result 182>7 183>7 184>7 185>7 428b14 460l8 460t21 540r13 621r13
+182i7 Result_Id{natural} 429b7 434r58 452r46
+183r7 Result{15|311R9} 430b7 435r58 436r60 454r12
+184i7 Max_Stack_Size_Len{natural} 431b7 443r22
+185i7 Max_Actual_Use_Len{natural} 432b7 447r22
+197i7 Bottom_Of_Stack{integer} 235m52
+198m7 Stack_Size_Chars{5|64M9} 216m7 223r10 228r45
+225i13 Stack_Size{integer} 228m13 233r16 234r16
+259i7 Stack_Used_When_Filling{integer} 266m7 272r10 280r36
+260i7 Current_Stack_Level{integer} 269m29 270r22
+284a10 Stack{50A9} 288r10 290m44 294m33 294r62 296m33 296r59 298m63 299m60
+377a7 Stack{50A9} 378m11 392r64 393r67 394r65 400r16 402m39
+392i10 Top_Index{integer} 398r15
+393i10 Bottom_Index{integer} 406r27
+394i10 Step{integer} 407r22
+395i10 J{integer} 398m10 400r23 402r46 406r23 407m13 407r18
+417a7 Min_Used_Str{string} 420r20 420r39
+418a7 Max_Used_Str{string} 421r16
+434a7 Result_Id_Str{string} 439r41
+435a7 Stack_Size_Str{string} 443r43 456r32
+436a7 Actual_Use_Str{string} 447r43 458r32
+438a7 Result_Id_Blanks{string} 452r12
+442a7 Stack_Size_Blanks{string} 456r12
+446a7 Actual_Use_Blanks{string} 458r12
+467i7 Max_Stack_Size{natural} 497r44 498m16 502r47
+468i7 Max_Actual_Use_Result_Id{natural} 492r31 494m16 505r43
+469i7 Max_Stack_Size_Len{natural} 502m10 512r28 520r40 521m16 541r37
+469i27 Max_Actual_Use_Len{natural} 504m10 516r28 524r41 525m16 541r57
+471a7 Task_Name_Blanks{string} 529r52 548r49
+488i14 J{integer} 489r23 491r30 494r44 497r30 498r48
+511a13 Stack_Size_Blanks{string} 530r35
+515a13 Stack_Usage_Blanks{string} 531r18
+538i14 J{integer} 539r23 541r16 541r33
+559r7 Result{15|311R9} 575m10 576m10 578m10 581m10 581r32 588r47 595r49 623r16
+565i7 Overflow_Guard{integer} 575r54 581r53
+594i13 Result_Str_Len{natural} 615r16 616r38
+596i13 Size_Str_Len{natural} 606r16 607r38
+599i13 Max_Stack_Size_Len{natural} 607m16 609m16 624r16
+600i13 Max_Actual_Use_Len{natural} 616m16 618m16 625r16
+X 18 s-stoele.ads
+44K16*Storage_Elements 15|33w13 40r31 47r22 16|37r15 235r23 18|123e28
+111M9*Integer_Address 15|42r33
+118V13*To_Integer{111M9} 15|47r39 16|235r40
+

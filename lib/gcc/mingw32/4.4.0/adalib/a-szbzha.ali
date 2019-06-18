@@ -1,0 +1,73 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.strings.wide_wide_bounded.wide_wide_hash%b  a-szbzha.adb  827797be NE OL SU GE
+W ada.strings.wide_wide_bounded%s  a-stzbou.adb	a-stzbou.ali
+
+U ada.strings.wide_wide_bounded.wide_wide_hash%s  a-szbzha.ads  7cdc333b BN NE OL PR GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings.wide_wide_bounded%s  a-stzbou.adb	a-stzbou.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-contai.ads		20070406091342 7b35f559
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-stream.ads		20090409232308 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-stzbou.ads		20090409232308 004e6501
+D a-szbzha.ads		20080324105732 07a7a363
+D a-szbzha.adb		20090409232308 85d034dd
+D a-stzmap.ads		20090409232308 9e409275
+D a-stzsup.ads		20090409232308 ed5a48f1
+D a-tags.ads		20090409232308 bfa07446
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 8|18r6 22r10 24r10 28r22 9|32r10 36r8 53r5
+X 2 a-contai.ads
+16K13*Containers 22e19 8|18w10 26r10 9|34r10 36r12
+19M9*Hash_Type 8|26r21 9|34r21 39r16 40r32 43r10
+X 6 a-string.ads
+16K13*Strings 35e16 8|22r14 24r14 28r26 9|32r14 53r9
+X 7 a-stzbou.ads
+39K21*Wide_Wide_Bounded 919e34 8|22r22 24r22 28r34 9|32r22 53r17
+46k12*Generic_Bounded_Length 917e30 8|22r40
+50R12 Bounded_Wide_Wide_String 8|25r18[21] 9|33r18[8|21]
+55I15 Length_Range{natural}
+57V16 Length{55I15[8|21]} 9|47r26[8|21]
+136V16 Element{wide_wide_character} 9|49r49[8|21]
+X 8 a-szbzha.ads
+21K17 Bounded[7|46] 25r10 9|33r10 47r18 49r41
+24v40*Wide_Wide_Hash 7|39k21 8|25>4 28r52 9|32b40 53l35 53t49
+25r4 Key{7|50R12[21]} 9|33b4 47r34 49r58
+X 9 a-szbzha.adb
+38V13*Rotate_Left{2|19M9} 39>7 40>7 41b30 48r14
+39m7 Value{2|19M9}
+40i7 Amount{natural}
+43m4 Tmp{2|19M9} 46m4 48m7 48r27 52r11
+47i8 J{integer} 49r63
+

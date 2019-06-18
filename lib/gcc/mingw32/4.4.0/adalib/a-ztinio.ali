@@ -1,0 +1,124 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.wide_wide_text_io.integer_io%b  a-ztinio.adb  a882e690 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+W ada.wide_wide_text_io.integer_aux%s  a-ztinau.adb  a-ztinau.ali
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+W system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.wide_wide_text_io.integer_io%s  a-ztinio.ads  7e2fc8c7 BN NE OL PK GE
+W ada.wide_wide_text_io%s  a-ztexio.adb		a-ztexio.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-ioexce.ads		20070406091342 be0900a0
+D a-stream.ads		20090409232308 34aca5be
+D a-tags.ads		20090409232308 bfa07446
+D a-unccon.ads		20070406091342 51e09df2
+D a-ztexio.ads		20090409232308 c02e7195
+D a-ztinau.ads		20090409232308 f234d869
+D a-ztinio.ads		20070406091342 be01b952
+D a-ztinio.adb		20090409232308 4a3c03c6
+D interfac.ads		20090409232308 a69cad5c
+D i-cstrea.ads		20090409232308 e1e064a9
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-ficobl.ads		20090409232308 8bb681e5
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+D s-wchcon.ads		20090409232308 ab028799
+D s-wchwts.ads		20090409232308 058903f4
+X 1 ada.ads
+16K9*Ada 19e8 11|25r9 60r5 12|32r6 36r14 45r19 48r24 146r5
+X 9 a-ztexio.ads
+49K13*Wide_Wide_Text_IO 1|16k9 9|518e26 11|25r13 60r9 12|32r10 36r18 45r23
+. 48r28 146r9
+51P9*File_Type(370R9) 11|31r15 40r15 12|45r41 55r15 105r15
+73I12*Field{integer} 11|27r20 33r15 37r15 42r15 47r15 12|57r15 72r15 107r15
+. 120r15
+78I12*Number_Base{integer} 11|28r20 43r15 48r15 58r14 12|108r15 121r15 130r14
+121V13*Current_Input{51P9} 12|75r12
+122V13*Current_Output{51P9} 12|124r12
+298X4*Data_Error 12|67r38 97r38
+X 10 a-ztinau.ads
+39K39*Integer_Aux 83e38 12|32w28 48r46
+41U14*Get_Int 12|63r14
+46U14*Get_LLI 12|61r14
+51U14*Gets_Int 12|93r14
+56U14*Gets_LLI 12|91r14
+61U14*Put_Int 12|114r14
+67U14*Put_LLI 12|112r14
+73U14*Puts_Int 12|138r14
+78U14*Puts_LLI 12|136r14
+X 11 a-ztinio.ads
+23I9 Num 27r29 32r19 36r19 41r15 46r15 52r18 57r14 12|38r35 56r19 71r19 80r18
+. 106r15 119r15 129r14
+25k31*Integer_IO 9|49k13 11|23z9 60l27 60e37 12|36b36 146l27 146t37
+27i4*Default_Width{9|73I12} 42r24 47r24 12|107r24 120r24
+28i4*Default_Base{9|78I12} 43r30 48r30 58r29 12|108r30 121r30 130r29
+30U14*Get 31>7 32<7 33>7 12|54b14 68l8 68t11 75r7
+31p7 File{9|51P9} 12|55b7 61r28 63r28
+32*7 Item{23I9} 12|56b7 61m54 63m44
+33i7 Width{9|73I12} 12|57b7 61r61 63r51
+35U14*Get 36<7 37>7 12|70b14 76l8 76t11
+36*7 Item{23I9} 12|71b7 75m27
+37i7 Width{9|73I12} 12|72b7 75r33
+39U14*Put 40>7 41>7 42>7 43>7 12|104b14 116l8 116t11 124r7
+40p7 File{9|51P9} 12|105b7 112r28 114r28
+41*7 Item{23I9} 12|106b7 112r54 114r44
+42i7 Width{9|73I12} 12|107b7 112r61 114r51
+43i7 Base{9|78I12} 12|108b7 112r68 114r58
+45U14*Put 46>7 47>7 48>7 12|118b14 125l8 125t11
+46*7 Item{23I9} 12|119b7 124r28
+47i7 Width{9|73I12} 12|120b7 124r34
+48i7 Base{9|78I12} 12|121b7 124r41
+50U14*Get 51>7 52<7 53<7 12|78b14 98l8 98t11
+51s7 From{wide_wide_string} 12|79b7 83r58
+52*7 Item{23I9} 12|80b7 91m46 93m36
+53i7 Last{positive} 12|81b7 91m53 93m43
+55U14*Put 56<7 57>7 58>7 12|127b14 144l8 144t11
+56s7 To{wide_wide_string} 12|128b7 132r19 132r31 142m10
+57*7 Item{23I9} 12|129b7 136r46 138r36
+58i7 Base{9|78I12} 12|130b7 136r53 138r43
+X 12 a-ztinio.adb
+38b4 Need_LLI{boolean} 60r10 90r10 111r10 135r10
+45P12 TFT{9|51P9} 61r23 63r23 112r23 114r23
+48K12 Aux=48:46 61r10 63r10 91r10 93r10 112r10 114r10 136r10 138r10
+83a7 S{string} 91r24 93r24
+132a7 S{string} 136m24 138m24 141r16 142r60
+141i11 J{integer} 142r14 142r63
+X 15 system.ads
+37K9*System 12|33r6 33r26 34r6 34r26 15|197e11
+X 31 s-wchcon.ads
+43K16*WCh_Con 12|33w13 33r33 31|222e19
+96I9*WC_Encoding_Method<short_short_integer>
+110i4*WCEM_Upper{96I9} 12|83r64
+X 32 s-wchwts.ads
+39K16*WCh_WtS 12|34w13 34r33 32|63e19
+58V13*Wide_Wide_String_To_String{string} 12|83r30
+

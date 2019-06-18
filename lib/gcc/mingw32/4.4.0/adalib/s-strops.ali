@@ -1,0 +1,51 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.string_ops%b	s-strops.adb		b871c253 NE OL PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.string_ops%s	s-strops.ads		aa7bd72d NE OL PU PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-secsta.ads		20090409232308 7bae3621
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-strops.ads		20090409232308 845f72d2
+D s-strops.adb		20090409232308 3c2eb081
+X 3 system.ads
+37K9*System 197e11 7|39r9 54r5 8|36r14 107r5
+78V13*"="{boolean} 8|44r19 92r19
+X 7 s-strops.ads
+39K16*String_Ops 3|37k9 7|54l12 54e22 8|36b21 107l12 107t22
+42V13*Str_Concat{string} 42>25 42>28 8|42b13 58l8 58t18
+42s25 X{string} 8|42b25 44r10 49r37 50r25 50r36 53r16 53r28 54r16 54r26
+42s28 Y{string} 8|42b28 45r17 49r48 54r49
+45V13*Str_Concat_SC{string} 45>28 45>40 8|90b13 105l8 105t21
+45s28 X{string} 8|90b28 92r10 97r25 97r36 100r16 100r28
+45e40 Y{character} 8|90b40 93r23 101r27
+48V13*Str_Concat_CS{string} 48>28 48>43 8|77b13 84l8 84t21
+48e28 X{character} 8|77b28 81r16
+48s43 Y{string} 8|77b43 78r24 82r26
+51V13*Str_Concat_CC{string} 51>28 51>31 8|64b13 71l8 71t21
+51e28 X{character} 8|64b28 68r16
+51e31 Y{character} 8|64b31 69r16
+X 8 s-strops.adb
+49i13 L{natural} 50r46
+50a13 R{string} 53m13 54m13 54r38 55r20
+65a7 R{string} 68m7 69m7 70r14
+78a7 R{string} 81m7 82m7 82r15 83r14
+97a13 R{string} 100m13 101m13 101r16 102r20
+

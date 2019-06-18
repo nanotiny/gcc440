@@ -1,0 +1,244 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnvnnnnnnnvnvvnnnnnnnnnnnnnnn
+
+U gnat.registry%b	g-regist.adb		c015ffd9 NE OL PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.directory_operations%s  g-dirope.adb	g-dirope.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+
+U gnat.registry%s	g-regist.ads		e7c0c8cf BN EE OL PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-charac.ads		20070912115822 506ce725
+D a-chlat1.ads		20070912115822 e9ee6d0a
+D a-except.ads		20090409232308 b54b55de
+D a-string.ads		20070406091342 87b4230b
+D a-strmap.ads		20090409232308 5253a637
+D a-unccon.ads		20070406091342 51e09df2
+D gnat.ads		20050905075126 96410e68
+D g-dirope.ads		20080408065740 92471343
+D g-regist.ads		20090409232308 7181c6a7
+D g-regist.adb		20090409232308 b1c979a0
+D interfac.ads		20090409232308 a69cad5c
+D i-c.ads		20070406091342 bc3ef662
+D system.ads		20090409232308 2e24a5ff
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-imgint.ads		20090409232308 f77d133c
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-strops.ads		20090409232308 845f72d2
+D s-sopco3.ads		20090409232308 72ce1063
+D s-sopco4.ads		20090409232308 bc112723
+D s-sopco5.ads		20090409232308 191315e8
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+X 8 gnat.ads
+36K9*GNAT 39e9 10|43r9 141r5 11|33r6 35r14 242r11 368r11 458r5
+X 9 g-dirope.ads
+49K14*Directory_Operations 277e30 11|33w11 242r16 284r16 286r19 368r16 396r17
+. 397r52
+111A12*Path_Name{string}<integer>
+180n37*DOS{180E9} 11|286r40 397r73
+181V13*Expand_Path{111A12} 11|284r37 396r38
+X 10 g-regist.ads
+43K14*Registry 8|36k9 10|141l10 141e18 11|35b19 458l10 458t18
+45M9*HKEY 50r37 51r37 52r37 53r37 54r37 55r37 65r18 67r49 74r18 76r48 81r31
+. 84r36 88r18 97r19 105r37 108r39 117r46 132c9 134r37 135r37 136r37 137r37
+. 138r37 139r37 11|55r29 62r32 66r30 79r18 84r21 89r23 100r20 108r21 117r21
+. 164r31 176r18 178r49 189r25 214r37 226r39 239r18 308r18 311r17 334r18 336r48
+. 343r25 364r18 408r19
+50m4*HKEY_CLASSES_ROOT{45M9} 134c4
+51m4*HKEY_CURRENT_USER{45M9} 135c4
+52m4*HKEY_CURRENT_CONFIG{45M9} 139c4
+53m4*HKEY_LOCAL_MACHINE{45M9} 136c4
+54m4*HKEY_USERS{45M9} 137c4
+55m4*HKEY_PERFORMANCE_DATA{45M9} 138c4
+57E9*Key_Mode 57e44 67r18 76r18 11|139r31 178r18 336r18 442r31
+57n22*Read_Only{57E9} 76r30 11|336r30 450r15
+57n33*Read_Write{57E9} 67r30 11|178r30 453r15
+60X4*Registry_Error 11|155r16 322r12
+64V13*Create_Key{45M9} 65>7 66>7 67>7 11|175b13 208l8 208t18
+65m7 From_Key{45M9} 11|176b7 196r12
+66s7 Sub_Key{string} 11|177b7 185r38 206r45
+67e7 Mode{57E9} 11|178b7 187r49
+73V13*Open_Key{45M9} 74>7 75>7 76>7 11|314r18 333b13 357l8 357t16
+74m7 From_Key{45M9} 11|334b7 349r12
+75s7 Sub_Key{string} 11|335b7 340r38 355r43
+76e7 Mode{57E9} 11|336b7 341r49
+81U14*Close_Key 81>25 11|164b14 169l8 169t17 315r7
+81m25 Key{45M9} 11|164b25 167r30
+84V13*Key_Exists{boolean} 84>25 84>42 11|307b13 327l8 327t18
+84m25 From_Key{45M9} 11|308b7 314r28
+84s42 Sub_Key{string} 11|309b7 314r38
+87V13*Query_Value{string} 88>7 89>7 90>7 11|363b13 401l8 401t19
+88m7 From_Key{45M9} 11|364b7 386r12
+89s7 Sub_Key{string} 11|365b7 378r38 393r46
+90b7 Expand{boolean} 11|366b7 395r46
+96U14*Set_Value 97>8 98>8 99>8 100>8 11|407b14 436l8 436t17
+97m8 From_Key{45M9} 11|408b8 428r12
+98s8 Sub_Key{string} 11|409b8 413r38 435r44
+99s8 Value{string} 11|410b8 414r38
+100b8 Expand{boolean} 11|411b8 420r10
+105U14*Delete_Key 105>26 105>43 11|214b14 220l8 220t18
+105m26 From_Key{45M9} 11|214b26 218r31
+105s43 Sub_Key{string} 11|214b43 215r38 219r45
+108U14*Delete_Value 108>28 108>45 11|226b14 232l8 232t20
+108m28 From_Key{45M9} 11|226b28 230r33
+108s45 Sub_Key{string} 11|226b45 227r38 231r47
+112U22 Action 113>10 114>10 115>10 116=10 11|281r13 290r13
+113i10 Index{positive}
+114s10 Sub_Key{string}
+115s10 Value{string}
+116b10 Quit{boolean}
+117u14*For_Every_Key_Value 117>35 117>52 11|238b14 301l8 301t27
+117m35 From_Key{45M9} 11|239b7 268r15
+117b52 Expand{boolean} 11|240b7 280r51
+X 11 g-regist.adb
+43I12 LONG{13|37I9} 51r26 53r22 62r45 75r30 80r34 85r37 96r39 104r34 113r37
+. 122r35 142r37 151r37 152r16 156r29 165r16 190r17 216r19 228r19 243r16 247r16
+. 344r17 369r16 379r19 417r20
+44M12 ULONG{13|45M9} 45r21 47r33 244r16 246r16 255r30 256r30 370r16 375r28
+45M12 DWORD{44M12} 68r30 70r30 90r23 102r20 119r21 120r21 122r21 181r16 191r25
+. 257r30 376r28 416r20
+47P12 PULONG(44M12) 48r22
+48P12 PDWORD{47P12} 49r23
+49P12 LPDWORD{48P12} 74r30 92r23 93r23 94r23 96r23 110r21 111r21 113r21
+51I12 Error_Code{43I12} 57r29
+53I12 REGSAM{43I12} 71r30 103r20 139r48 180r16 187r28 338r16 341r28 442r48
+. 443r16
+55P9 PHKEY(10|45M9) 73r30 104r20
+57i4 ERROR_SUCCESS{51I12} 154r20 276r34
+59N4 REG_SZ 289r31 423r24
+60N4 REG_EXPAND_SZ 280r28 289r61 395r23 421r24
+62V13 RegCloseKey{43I12} 62>26 63b28 167r17
+62m26 Key{10|45M9}
+65V13 RegCreateKeyEx{43I12} 66>7 67>7 68>7 69>7 70>7 71>7 72>7 73>7 74>7
+. 76b28 195r9
+66m7 Key{10|45M9}
+67m7 lpSubKey{14|64M9}
+68m7 Reserved{45M12}
+69m7 lpClass{14|64M9}
+70m7 dwOptions{45M12}
+71i7 samDesired{53I12}
+72m7 lpSecurityAttributes{14|64M9}
+73p7 phkResult{55P9}
+74p7 lpdwDisposition{49P12}
+78V13 RegDeleteKey{43I12} 79>7 80>7 81b28 218r17
+79m7 Key{10|45M9}
+80m7 lpSubKey{14|64M9}
+83V13 RegDeleteValue{43I12} 84>7 85>7 86b28 230r17
+84m7 Key{10|45M9}
+85m7 lpValueName{14|64M9}
+88V13 RegEnumValue{43I12} 89>7 90>7 91>7 92>7 93>7 94>7 95>7 96>7 97b28 267r12
+89m7 Key{10|45M9}
+90m7 dwIndex{45M12}
+91m7 lpValueName{14|64M9}
+92p7 lpcbValueName{49P12}
+93p7 lpReserved{49P12}
+94p7 lpType{49P12}
+95m7 lpData{14|64M9}
+96p7 lpcbData{49P12}
+99V13 RegOpenKeyEx{43I12} 100>7 101>7 102>7 103>7 104>7 105b28 348r9
+100m7 Key{10|45M9}
+101m7 lpSubKey{14|64M9}
+102m7 ulOptions{45M12}
+103i7 samDesired{53I12}
+104p7 phkResult{55P9}
+107V13 RegQueryValueEx{43I12} 108>7 109>7 110>7 111>7 112>7 113>7 114b28
+. 385r9
+108m7 Key{10|45M9}
+109m7 lpValueName{14|64M9}
+110p7 lpReserved{49P12}
+111p7 lpType{49P12}
+112m7 lpData{14|64M9}
+113p7 lpcbData{49P12}
+116V13 RegSetValueEx{43I12} 117>7 118>7 119>7 120>7 121>7 122>7 123b28 427r9
+117m7 Key{10|45M9}
+118m7 lpValueName{14|64M9}
+119m7 Reserved{45M12}
+120m7 dwType{45M12}
+121m7 lpData{14|64M9}
+122m7 cbData{45M12}
+129N4 Max_Key_Size 249r30
+132N4 Max_Value_Size 252r28 372r28
+139V13 To_C_Mode{53I12} 139>24 187r38 341r38 442b13 456l8 456t17
+139e24 Mode{10|57E9} 442b24 449r12
+142U14 Check_Result 142>28 142>43 151b14 158l8 158t20 168r7 206r7 219r7 231r7
+. 355r7 393r7 435r7
+142i28 Result{43I12} 151b28 154r10 156r41
+142s43 Message{string} 151b43 156r12
+165i7 Result{43I12} 167m7 168r21
+183N7 REG_OPTION_NON_VOLATILE 200r12
+185a7 C_Sub_Key{string} 197r12 197r23
+186a7 C_Class{string} 199r12 199r21
+187i7 C_Mode{53I12} 201r12
+189m7 New_Key{10|45M9} 203m12 207r14
+190i7 Result{43I12} 194m7 206r21
+191m7 Dispos{45M12} 204m12
+215a7 C_Sub_Key{string} 218r41 218r52
+216i7 Result{43I12} 218m7 219r21
+227a7 C_Sub_Key{string} 230r43 230r54
+228i7 Result{43I12} 230m7 231r21
+246m7 Index{44M12} 268r25 282r25 291r25 299m10 299r19
+247i7 Result{43I12} 266m10 276r25
+249a7 Sub_Key{string} 250r29 263r26 269m15 283r16 292r16
+252a7 Value{string} 253r29 264r26 273m15 285r19 293r16
+255m7 Size_Sub_Key{44M12} 263m10 270m15 283r39 292r39
+256m7 Size_Value{44M12} 264m10 274m15 285r40 293r37
+257m7 Type_Sub_Key{45M12} 272m15 280r13 289r16 289r46
+259b7 Quit{boolean} 278m10 287m16 294m16 297r20
+311m7 New_Key{10|45M9} 314m7 315r18
+340a7 C_Sub_Key{string} 350r12 350r23
+341i7 C_Mode{53I12} 352r12
+343m7 New_Key{10|45M9} 353m12 356r14
+344i7 Result{43I12} 347m7 355r21
+372a7 Value{string} 373r29 382r21 390m12 390r19 397r13 399r17
+375m7 Size_Value{44M12} 382m7 391m12 397r34 399r38
+376m7 Type_Value{45M12} 389m12 395r10
+378a7 C_Sub_Key{string} 387r12 387r23
+379i7 Result{43I12} 384m7 393r21
+413a7 C_Sub_Key{string} 429r12 429r23
+414a7 C_Value{string} 432r12 432r21 433r12
+416m7 Value_Type{45M12} 421m10 423m10 431r12
+417i7 Result{43I12} 426m7 435r21
+445N7 KEY_READ 451r20 454r20
+446N7 KEY_WRITE 454r31
+X 12 interfac.ads
+36K9*Interfaces 11|31r6 43r20 44r21 12|171e15
+X 13 i-c.ads
+18K20*C 11|31w17 43r31 44r32 13|230e17
+37I9*long<integer> 11|43r33
+45M9*unsigned_long 11|44r34
+X 14 system.ads
+37K9*System 11|32w6 37r8 14|197e11
+64M9*Address 11|67r30 69r30 72r30 80r18 85r21 91r23 95r23 101r20 109r21 112r21
+. 118r21 121r21
+66m4*Null_Address{64M9} 11|202r12
+

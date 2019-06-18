@@ -1,0 +1,103 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnvnnnnnnnnnnnvnnvnnnnvnnvnvnnvnnnnnnvnnvnnnnnnnnvnnnnvnvvnvnnnnnnnnnnnnnnnn
+
+U gnat.spitbol.table_vstring%b  g-sptavs.ads	834f4f9b NE OL PR PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gnat.spitbol%s	g-spitbo.adb		g-spitbo.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+U gnat.spitbol.table_vstring%s  g-sptavs.ads	ee05e54f EB EE OL PR PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gnat.spitbol%s	g-spitbo.adb		g-spitbo.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-charac.ads		20070912115822 506ce725
+D a-chlat1.ads		20070912115822 e9ee6d0a
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-stream.ads		20090409232308 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strmap.ads		20090409232308 5253a637
+D a-strunb.ads		20090409232308 f0549c04
+D a-stunau.ads		20090409232308 730683d9
+D a-tags.ads		20090409232308 bfa07446
+D a-unccon.ads		20070406091342 51e09df2
+D a-uncdea.ads		20070406091342 dc667e6d
+D gnat.ads		20050905075126 96410e68
+D g-debuti.ads		20050905080700 bc4f7803
+D g-io.ads		20050905080700 71d8ada9
+D g-spitbo.ads		20060215092844 6d4aaad4
+D g-spitbo.adb		20070606101344 b4882ac1
+D g-sptavs.ads		20051115140646 834f4f9b
+D g-sptavs.ads		20051115140646 834f4f9b
+D interfac.ads		20090409232308 a69cad5c
+D system.ads		20090409232308 2e24a5ff
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-strops.ads		20090409232308 845f72d2
+D s-sopco3.ads		20090409232308 72ce1063
+D s-sopco4.ads		20090409232308 bc112723
+D s-sopco5.ads		20090409232308 191315e8
+D s-string.ads		20090409232308 04f2ee70
+D s-ststop.ads		20090409232308 b2197cc3
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+D s-valint.ads		20090409232308 d23209d2
+X 10 a-strunb.ads
+63V13*To_String{string} 21|41r37
+X 15 gnat.ads
+36K9*GNAT 39e9 21|40r9 41r3
+X 18 g-spitbo.ads
+46K14*Spitbol 15|36k9 18|396e17 21|40r14 41r8
+53R12*VString{10|42R9} 21|41r23
+61r4*Nul=61:48{10|42R9} 21|41r32
+243k12*Table 394e13 21|41r16
+X 21 g-sptavs.ads
+40K22*Table_VString[18|243] 18|46k14 21|42r22
+

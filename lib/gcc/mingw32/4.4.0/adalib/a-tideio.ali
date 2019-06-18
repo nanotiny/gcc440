@@ -1,0 +1,110 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnvnnvnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U ada.text_io.decimal_io%b  a-tideio.adb	ccf76297 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.decimal_aux%s  a-tideau.adb	a-tideau.ali
+
+U ada.text_io.decimal_io%s  a-tideio.ads	ea600970 BN NE OL PK GE
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-ioexce.ads		20070406091342 be0900a0
+D a-stream.ads		20090409232308 34aca5be
+D a-tags.ads		20090409232308 bfa07446
+D a-textio.ads		20090409232308 fe8af46e
+D a-tideau.ads		20090409232308 c3c47a4f
+D a-tideio.ads		20090409232308 14eafd1e
+D a-tideio.adb		20090409232308 1bd9e5c6
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20090409232308 a69cad5c
+D i-cstrea.ads		20090409232308 e1e064a9
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-ficobl.ads		20090409232308 8bb681e5
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+D s-wchcon.ads		20090409232308 ab028799
+X 1 ada.ads
+16K9*Ada 19e8 10|45r9 88r5 11|32r6 34r14 36r24 138r5
+X 8 a-textio.ads
+48K13*Text_IO 1|16k9 8|506e16 10|45r13 88r9 11|32r10 34r18 36r28 138r9
+51P9*File_Type(369R9) 10|52r15 61r14 11|45r15 96r14
+73I12*Field{integer} 10|47r19 48r19 49r19 54r15 58r15 63r14 64r14 65r14 69r14
+. 70r14 71r14 81r14 82r14 11|47r15 65r15 98r14 99r14 100r14 115r14 116r14
+. 117r14 126r14 127r14
+298X4*Data_Error 11|60r38 88r38
+458p4 Current_In{51P9} 11|68r12
+459p4 Current_Out{51P9} 11|120r12
+X 9 a-tideau.ads
+40K29*Decimal_Aux 92e28 11|32w18 36r36
+42V13*Get_Dec{integer} 11|56r39
+47V13*Get_LLD{long_long_integer} 11|53r39
+52U14*Put_Dec 11|108r14
+60U14*Put_LLD 11|104r14
+68V13*Gets_Dec{integer} 11|84r25
+73V13*Gets_LLD{long_long_integer} 11|81r25
+78U14*Puts_Dec 11|134r14
+85U14*Puts_LLD 11|131r14
+X 10 a-tideio.ads
+43D9 Num 47r28 48r28 53r19 57r19 62r14 68r14 75r18 80r14 11|38r32 46r19 52r10
+. 53r18 56r18 64r19 73r18 79r10 80r18 83r18 97r14 103r10 114r14 125r14 130r10
+45k21*Decimal_IO 8|48k13 10|43z9 88l17 88e27 11|34b26 138l17 138t27
+47i4*Default_Fore{8|73I12} 63r23 69r23 11|98r23 115r23
+48i4*Default_Aft{8|73I12} 64r23 70r23 81r23 11|99r23 116r23 126r23
+49i4*Default_Exp{8|73I12} 65r23 71r23 82r23 11|100r23 117r23 127r23
+51U14*Get 52>7 53<7 54>7 11|44b14 61l8 61t11 68r7
+52p7 File{8|51P9} 11|45b7 53r48 56r48
+53*7 Item{43D9} 11|46b7 53m10 56m10
+54i7 Width{8|73I12} 11|47b7 53r54 56r54
+56U14*Get 57<7 58>7 11|63b14 69l8 69t11
+57*7 Item{43D9} 11|64b7 68m24
+58i7 Width{8|73I12} 11|65b7 68r30
+60U14*Put 61>7 62>7 63>7 64>7 65>7 11|95b14 111l8 111t11 120r7
+61p7 File{8|51P9} 11|96b7 105r13 109r13
+62*7 Item{43D9} 11|97b7 105r52 109r42
+63i7 Fore{8|73I12} 11|98b7 106r13 109r49
+64i7 Aft{8|73I12} 11|99b7 106r19 109r55
+65i7 Exp{8|73I12} 11|100b7 106r24 109r60
+67U14*Put 68>7 69>7 70>7 71>7 11|113b14 121l8 121t11
+68*7 Item{43D9} 11|114b7 120r25
+69i7 Fore{8|73I12} 11|115b7 120r31
+70i7 Aft{8|73I12} 11|116b7 120r37
+71i7 Exp{8|73I12} 11|117b7 120r42
+73U14*Get 74>7 75<7 76<7 11|71b14 89l8 89t11
+74s7 From{string} 11|72b7 81r35 84r35
+75*7 Item{43D9} 11|73b7 80m10 83m10
+76i7 Last{positive} 11|74b7 81m41 84m41
+78U14*Put 79<7 80>7 81>7 82>7 11|123b14 136l8 136t11
+79s7 To{string} 11|124b7 132m13 134m24
+80*7 Item{43D9} 11|125b7 132r50 134r51
+81i7 Aft{8|73I12} 11|126b7 132r57 134r58
+82i7 Exp{8|73I12} 11|127b7 132r62 134r63
+X 11 a-tideio.adb
+36K12 Aux=36:36 53r35 56r35 81r21 84r21 104r10 108r10 131r10 134r10
+38i4 Scale{integer} 53r61 56r61 81r67 84r67 106r29 109r65 132r67 134r68
+

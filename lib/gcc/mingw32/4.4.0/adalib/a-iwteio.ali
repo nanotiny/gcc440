@@ -1,0 +1,71 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnvnnvnnnvnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.integer_wide_text_io%b  a-iwteio.ads	2c868de8 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W ada.wide_text_io.integer_aux%s  a-wtinau.adb	a-wtinau.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+W system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.integer_wide_text_io%s  a-iwteio.ads	ddbb0a00 EB NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-iwteio.ads		20070406091342 2c868de8
+D a-iwteio.ads		20070406091342 2c868de8
+D a-ioexce.ads		20070406091342 be0900a0
+D a-stream.ads		20090409232308 34aca5be
+D a-tags.ads		20090409232308 bfa07446
+D a-unccon.ads		20070406091342 51e09df2
+D a-witeio.ads		20090409232308 6d405402
+D a-wtinau.ads		20090409232308 b0eb8d71
+D a-wtinio.ads		20070406091342 63feecfa
+D a-wtinio.adb		20090409232308 6f5b522e
+D interfac.ads		20090409232308 a69cad5c
+D i-cstrea.ads		20090409232308 e1e064a9
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-ficobl.ads		20090409232308 8bb681e5
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+D s-wchcon.ads		20090409232308 ab028799
+D s-wchwts.ads		20090409232308 058903f4
+X 1 ada.ads
+16K9*Ada 19e8 6|16r6 18r9 19r7
+X 6 a-iwteio.ads
+18K13*Integer_Wide_Text_IO[13|25] 1|16k9
+X 11 a-witeio.ads
+49K13*Wide_Text_IO 6|16w10 19r11 11|515e21
+X 13 a-wtinio.ads
+25k26*Integer_IO 6|19r24 13|60e32
+

@@ -1,0 +1,107 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnvnnvnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.text_io.integer_io%b  a-tiinio.adb	7dea0c5a NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+
+U ada.text_io.integer_io%s  a-tiinio.ads	6a10861c BN NE OL PK GE
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-finali.ads		20090409232308 9eaacebd
+D a-filico.ads		20090409232308 9299732a
+D a-ioexce.ads		20070406091342 be0900a0
+D a-stream.ads		20090409232308 34aca5be
+D a-tags.ads		20090409232308 bfa07446
+D a-textio.ads		20090409232308 fe8af46e
+D a-tiinau.ads		20090409232308 2625f681
+D a-tiinio.ads		20090409232308 949a7272
+D a-tiinio.adb		20090409232308 cf5588a9
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20090409232308 a69cad5c
+D i-cstrea.ads		20090409232308 e1e064a9
+D system.ads		20090409232308 2e24a5ff
+D s-crtl.ads		20090409232308 997234a1
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-ficobl.ads		20090409232308 8bb681e5
+D s-finimp.ads		20090409232308 9449f4cb
+D s-finroo.ads		20090409232308 1408f9d1
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-stratt.ads		20090409232308 fef7c1da
+D s-traent.ads		20090409232308 bd5f2753
+D s-unstyp.ads		20090409232308 c0f9fae5
+D s-wchcon.ads		20090409232308 ab028799
+X 1 ada.ads
+16K9*Ada 19e8 10|45r9 84r5 11|32r6 34r14 36r24 155r5
+X 8 a-textio.ads
+48K13*Text_IO 1|16k9 8|506e16 10|45r13 84r9 11|32r10 34r18 36r28 155r9
+51P9*File_Type(369R9) 10|51r15 60r15 11|50r15 116r15
+73I12*Field{integer} 10|47r20 53r15 57r15 62r15 67r15 11|52r15 72r15 118r15
+. 131r15
+78I12*Number_Base{integer} 10|48r20 63r15 68r15 78r14 11|119r15 132r15 145r14
+298X4*Data_Error 11|67r38 87r38 108r38
+458p4 Current_In{51P9} 11|81r23 83r23
+459p4 Current_Out{51P9} 11|136r23 138r23
+X 9 a-tiinau.ads
+39K29*Integer_Aux 83e28 11|32w18 36r36
+41U14*Get_Int 11|63r14 83r14
+46U14*Get_LLI 11|61r14 81r14
+51U14*Put_Int 11|125r14 138r14
+57U14*Put_LLI 11|123r14 136r14
+63U14*Gets_Int 11|104r14
+68U14*Gets_LLI 11|102r14
+73U14*Puts_Int 11|151r14
+78U14*Puts_LLI 11|149r14
+X 10 a-tiinio.ads
+43I9 Num 47r29 52r19 56r19 61r15 66r15 72r18 77r14 11|38r35 51r19 71r19 92r18
+. 117r15 130r15 144r14
+45k21*Integer_IO 8|48k13 10|43z9 84l17 84e27 11|34b26 155l17 155t27
+47i4*Default_Width{8|73I12} 62r24 67r24 11|118r24 131r24
+48i4*Default_Base{8|78I12} 63r30 68r30 78r29 11|119r30 132r30 145r29
+50U14*Get 51>7 52<7 53>7 11|49b14 68l8 68t11
+51p7 File{8|51P9} 11|50b7 61r23 63r23
+52*7 Item{43I9} 11|51b7 61m48 63m38
+53i7 Width{8|73I12} 11|52b7 61r55 63r45
+55U14*Get 56<7 57>7 11|70b14 88l8 88t11
+56*7 Item{43I9} 11|71b7 81m54 83m44
+57i7 Width{8|73I12} 11|72b7 81r61 83r51
+59U14*Put 60>7 61>7 62>7 63>7 11|115b14 127l8 127t11
+60p7 File{8|51P9} 11|116b7 123r23 125r23
+61*7 Item{43I9} 11|117b7 123r48 125r38
+62i7 Width{8|73I12} 11|118b7 123r55 125r45
+63i7 Base{8|78I12} 11|119b7 123r62 125r52
+65U14*Put 66>7 67>7 68>7 11|129b14 140l8 140t11
+66*7 Item{43I9} 11|130b7 136r55 138r45
+67i7 Width{8|73I12} 11|131b7 136r62 138r52
+68i7 Base{8|78I12} 11|132b7 136r69 138r59
+70U14*Get 71>7 72<7 73<7 11|90b14 109l8 109t11
+71s7 From{string} 11|91b7 102r24 104r24
+72*7 Item{43I9} 11|92b7 102m49 104m39
+73i7 Last{positive} 11|93b7 102m56 104m46
+75U14*Put 76<7 77>7 78>7 11|142b14 153l8 153t11
+76s7 To{string} 11|143b7 149m24 151m24
+77*7 Item{43I9} 11|144b7 149r47 151r37
+78i7 Base{8|78I12} 11|145b7 149r54 151r44
+X 11 a-tiinio.adb
+36K12 Aux=36:36 61r10 63r10 81r10 83r10 102r10 104r10 123r10 125r10 136r10
+. 138r10 149r10 151r10
+38b4 Need_LLI{boolean} 60r10 80r10 101r10 122r10 135r10 148r10
+

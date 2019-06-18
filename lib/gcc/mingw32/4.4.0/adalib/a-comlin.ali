@@ -1,0 +1,63 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.command_line%b	a-comlin.adb		3360c77b NE OL PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.command_line%s	a-comlin.ads		a70c0a76 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-comlin.ads		20090409232308 3b71d99c
+D a-comlin.adb		20090409232308 2635bb18
+D a-unccon.ads		20070406091342 51e09df2
+D system.ads		20090409232308 2e24a5ff
+D s-secsta.ads		20090409232308 7bae3621
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+X 1 ada.ads
+16K9*Ada 19e8 2|36r9 134r5 3|34r14 130r5
+X 2 a-comlin.ads
+36K13*Command_Line 1|16k9 2|134l9 134e21 3|34b18 130l9 130t21
+39V13*Argument_Count{natural} 3|62r19 85b13 97l8 97t22
+46V13*Argument{string} 46>23 3|58b13 79l8 79t16
+46i23 Number{positive} 3|58b23 62r10 67r17 69r30
+55V13*Command_Name{string} 3|115b13 128l8 128t20
+63I9*Exit_Status<integer> 65r23 66r23 68r38 107r23 108r23
+65i4*Success{63I9} 107c4
+66i4*Failure{63I9} 108c4
+68U14*Set_Exit_Status 68>31 132b<c,__gnat_set_exit_status>22
+68i31 Code{63I9}
+117i4 Remove_Count{natural} 3|95r17
+121A9 Arg_Nums(positive)<integer> 122r32
+122P9 Arg_Nums_Ptr(121A9) 127r18
+127p4 Remove_Args{122P9} 3|66r10 69r17 92r10
+X 3 a-comlin.adb
+36V13 Arg_Count{natural} 37b<c,__gnat_arg_count>22 93r17
+39U14 Fill_Arg 39>24 39>44 40b<c,__gnat_fill_arg>22 76r10 125r10
+39m24 A{5|64M9}
+39i44 Arg_Num{integer}
+42V13 Len_Arg{integer} 42>22 43b<c,__gnat_len_arg>22 73r37 122r37
+42i22 Arg_Num{integer}
+49V13 Initialized{boolean} 87r14 103b13 109l8 109t19 117r14
+59i7 Num{positive} 67m10 69m10 73r46 76r33
+73a10 Arg{string} 76m20 77r17
+104m7*gnat_argv{5|64M9} 105m25 108r14
+122a10 Arg{string} 125m20 126r17
+X 5 system.ads
+37K9*System 3|32w6 32r34 39r28 104r19 108r27 5|197e11
+64M9*Address 3|39r35 104r26
+66m4*Null_Address{64M9} 3|108r34
+78V13*"="{boolean} 3|108r24
+

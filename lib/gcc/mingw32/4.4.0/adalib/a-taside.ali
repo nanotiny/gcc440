@@ -1,0 +1,138 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P SS
+R nnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U ada.task_identification%b  a-taside.adb	4abb247c NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.address_image%s  s-addima.adb		s-addima.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.utilities%s  s-tasuti.adb	s-tasuti.ali
+
+U ada.task_identification%s  a-taside.ads	6855e360 BN NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-taside.ads		20090409232308 ed6367a8
+D a-taside.adb		20090409232308 920ccd0e
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20090409232308 a69cad5c
+D i-c.ads		20070406091342 bc3ef662
+D i-cstrin.ads		20090409232308 841d8a31
+D system.ads		20090409232308 2e24a5ff
+D s-addima.ads		20090409232308 d3f93a86
+D s-atacco.ads		20090409232308 60789a20
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-osinte.ads		20080408064316 80e254ae
+D s-parame.ads		20090409232308 f32e56e9
+D s-secsta.ads		20090409232308 7bae3621
+D s-soflin.ads		20090409232308 0c6fd39d
+D s-stache.ads		20090409232308 257b3be8
+D s-stausa.ads		20090409232308 6ab7dd35
+D s-stalib.ads		20090409232308 52b793d5
+D s-stoele.ads		20090409232308 ed966df3
+D s-stoele.adb		20090409232308 e9998c78
+D s-strops.ads		20090409232308 845f72d2
+D s-sopco3.ads		20090409232308 72ce1063
+D s-sopco4.ads		20090409232308 bc112723
+D s-sopco5.ads		20090409232308 191315e8
+D s-tasinf.ads		20090409232308 ff3904e8
+D s-taspri.ads		20090409232308 f6de4d95
+D s-taprop.ads		20090409232308 25a7965c
+D s-taskin.ads		20090409232308 376ff2dd
+D s-tasuti.ads		20090409232308 9bf57713
+D s-traent.ads		20090409232308 bd5f2753
+D s-win32.ads		20090409232308 d15b9a1d
+X 1 ada.ads
+16K9*Ada 19e8 3|39r9 72r5 4|37r6 48r14 115r9 194r5
+X 3 a-taside.ads
+39K13*Task_Identification 1|16k9 3|72l9 72e28 4|48b18 194l9 194t28
+43P9*Task_Id(29|855R9) 44r41 46r28 48r32 51r24 53r33 56r30 60r32 63r30 68c9
+. 70r28 4|58r30 59r61 67r32 76r30 90r30 95r61 97r14 104r33 113r24 116r12
+. 135r30 165r32
+46p4*Null_Task_Id{43P9} 70c4 4|78r14 119r14 139r14 172r14
+48V13*"="{boolean} 48>18 48>24 4|67b13 70l8 70t11 78r12 119r12 139r12 172r12
+48p18 Left{43P9} 4|67b18 69r47
+48p24 Right{43P9} 4|67b24 69r67
+51V13*Image{string} 51>20 4|113b13 129l8 129t13
+51p20 T{43P9} 4|113b20 119r10 122r13 123r51 126r17 126r43 127r56
+53V13*Current_Task{43P9} 54r19 4|104b13 107l8 107t20
+56U14*Abort_Task 56>26 57r19 4|76b14 84l8 84t18
+56p26 T{43P9} 4|76b26 78r10 82r57
+60V13*Is_Terminated{boolean} 60>28 61r19 4|165b13 192l8 192t21
+60p28 T{43P9} 4|165b28 167r64 172r10
+63V13*Is_Callable{boolean} 63>26 64r19 4|135b13 159l8 159t19
+63p26 T{43P9} 4|135b26 137r64 139r10
+X 4 a-taside.adb
+52K12 STPO=52:48 145r13 148r10 150r10 153r13 178r13 181r10 183r10 186r13
+58V13 Convert_Ids{29|106P9} 58>26 69r34 69r54 82r44 90b13 93l8 93t19 137r51
+. 167r51
+58p26 T{3|43P9} 90b26 92r38
+59V13 Convert_Ids{3|43P9} 59>26 95b13 98l8 98t19 106r14
+59p26 T{29|106P9} 95b26 97r23
+114V16 To_Address[5|20]{9|64M9} 123r39 127r44
+136b7 Result{boolean} 149m10 157r17
+137p7 Id{29|106P9} 148r27 149r20 150r23
+166b7 Result{boolean} 182m10 190r17
+167p7 Id{29|106P9} 181r27 182r20 183r23
+X 5 a-unccon.ads
+20v14*Unchecked_Conversion 4|37w10 115r13
+X 9 system.ads
+37K9*System 3|36w6 37r6 68r24 4|32r6 33r6 34r6 35r6 36r6 44r6 50r8 52r25
+. 58r46 59r30 69r14 81r10 82r13 90r46 92r14 95r30 106r27 116r21 123r17 127r22
+. 137r25 142r10 156r10 167r25 169r11 175r10 189r10 9|197e11
+64M9*Address
+X 10 s-addima.ads
+39V17*Address_Image{string} 4|32w13 123r24 127r29
+X 14 s-parame.ads
+49K16*Parameters 4|33w13 50r15 14|202e22
+148b4*Single_Lock{boolean} 4|144r13 152r13 177r13 185r13
+X 16 s-soflin.ads
+50K16*Soft_Links 4|34w13 142r17 156r17 175r17 189r17 16|403e22
+65P9*No_Param_Proc
+173p4*Abort_Defer{65P9} 4|142r28 175r28
+177p4*Abort_Undefer{65P9} 4|156r28 189r28
+X 27 s-taspri.ads
+41K16*Task_Primitives 4|35w13 36r13 52r32 106r34 116r28 27|124e27
+64M12*Task_Address{9|64M9} 4|116r44
+X 28 s-taprop.ads
+39K32*Operations 4|36w29 52r48 106r50 28|546e38
+120V13*Self{29|106P9} 4|106r61
+172U14*Write_Lock 4|148r15 181r15
+226U14*Unlock 4|150r15 183r15
+418U14*Lock_RTS 4|145r18 178r18
+421U14*Unlock_RTS 4|153r18 186r18
+X 29 s-taskin.ads
+46K16*Tasking 3|37w13 68r31 4|44r13 58r53 59r37 69r21 81r17 82r20 90r53 92r21
+. 95r37 137r32 167r32 169r18 29|1093e19
+106P9*Task_Id(104R9) 3|68r39 4|58r61 59r45 90r61 92r29 95r45 137r40 167r40
+111A9*Task_List(106P9)<integer> 4|82r28
+148n7*Terminated{129E9} 4|182r38
+430e7*State{129E9} 4|182r30
+478a7*Task_Image{string} 4|126m26
+482i7*Task_Image_Len{natural} 4|122r22 126r52
+855R9*Ada_Task_Control_Block
+856r7*Common{429R9} 4|122m15 126m19 126m45 182m23
+948b7*Callable{boolean} 4|149r23
+X 30 s-tasuti.ads
+38K24*Utilities 4|44w21 81r25 30|104e29
+94U14*Abort_Tasks 4|81r35
+

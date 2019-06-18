@@ -1,0 +1,101 @@
+V "GNAT Lib v4.4"
+A -gnatwa
+A -O2
+A -W
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=i386
+P
+R nnnnnnnnnnnnnnnnnnvnvvnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.os_primitives%b  s-osprim.adb		d85b2138 NE OL PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.win32%s	s-win32.ads		s-win32.ali
+W system.win32.ext%s	s-winext.ads		s-winext.ali
+
+U system.os_primitives%s  s-osprim.ads		66fe9e32 BN NE OL PR PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-except.ads		20090409232308 b54b55de
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20090409232308 a69cad5c
+D i-c.ads		20070406091342 bc3ef662
+D system.ads		20090409232308 2e24a5ff
+D s-exctab.ads		20090409232308 5c1c61ae
+D s-osprim.ads		20090409232308 48da3bcd
+D s-osprim.adb		20090409232308 e91f30ed
+D s-parame.ads		20090409232308 f32e56e9
+D s-stalib.ads		20090409232308 52b793d5
+D s-traent.ads		20090409232308 bd5f2753
+D s-win32.ads		20090409232308 d15b9a1d
+D s-winext.ads		20090409232308 799e2a18
+X 5 i-c.ads
+35I9*int<integer>
+45M9*unsigned_long
+X 6 system.ads
+37K9*System 197e11 8|40r9 91r5 9|34r6 36r14 38r8 39r8 301r5
+X 8 s-osprim.ads
+40K16*OS_Primitives 6|37k9 8|91l12 91e25 9|36b21 301l12 301t25
+43o4*Max_Sensible_Delay{duration}
+55U14*Initialize 9|276b14 299l8 299t18
+60V13*Clock{duration} 61r19 9|108b13 145l8 145t13 233r23
+66V13*Monotonic_Clock{duration} 67r19 9|196b13 210l8 210t23 231r23
+72N4*Relative 9|250r17
+73N4*Absolute_Calendar
+74N4*Absolute_RT 9|230r18
+79U14*Timed_Delay 79>27 79>44 9|216b14 268l8 268t19
+79o27 Time{duration} 9|216b27 251r22 252r22 254r22 255r22
+79i44 Mode{integer} 9|216b44 229r15 250r10
+X 9 s-osprim.adb
+56P9 DA(duration) 79r19 83r20
+59P9 LIA(13|51O9) 66r19 71r19 75r20
+62P9 LLIA(long_long_integer) 87r20
+65o4 Tick_Frequency{13|51O9} 66m26 286m37
+66p4 TFA{59P9} 129r36 141r39 207r36
+70o4 Base_Ticks{13|51O9} 71m26 175m38 298r31
+71p4 BTA{59P9} 128r52 140r55
+74o4 Base_Monotonic_Ticks{13|51O9} 75m27 298m7
+75p4 BMTA{59P9} 206r52
+78o4 Base_Clock{duration} 79m25 187m7 297r31
+79p4 BCA{56P9} 144r14
+82o4 Base_Monotonic_Clock{duration} 83m26 297m7
+83p4 BMCA{56P9} 209r14
+86i4 Base_Time{long_long_integer} 87m28 173m35 184r31 188r28
+87p4 BTiA{62P9} 124r47
+91U14 Get_Base_Time 137r10 151b14 190l8 190t21 291r7
+109o7 Max_Shift{duration} 136r49
+110f7 Hundreds_Nano_In_Sec{long_long_float} 125r21
+111o7 Current_Ticks{13|51O9} 117m35 128r36 140r39
+112o7 Elap_Secs_Tick{duration} 127m7 136r31 139m10 144r24
+113o7 Elap_Secs_Sys{duration} 123m7 136r15
+114i7 Now{long_long_integer} 121m32 124r41
+159N7 Max_Elapsed 184r43
+161i7 Test_Now{long_long_integer} 182m35 184r20
+163N7 epoch_1970 188r40
+164N7 system_time_ns 188r54
+165N7 Sec_Unit 189r27
+197o7 Current_Ticks{13|51O9} 201m35 206r36
+198o7 Elap_Secs_Tick{duration} 205m7 209r25
+218V16 Mode_Clock{duration} 219r22 227b16 235l11 235t21 239r40 261r27
+239o7 Base_Time{duration} 245r32 263r67
+243o7 Rel_Time{duration} 251m10 254m10 258r10 260r27 265m13
+244o7 Abs_Time{duration} 252m10 255m10 263r23 265r25
+245o7 Check_Time{duration} 252r29 254r29 261m13 263r35 263r54 265r36
+274b4 Initialized{boolean} 278r10 282m7
+X 13 s-win32.ads
+39K16*Win32 9|34r13 38r15 39r15 117r59 175r59 201r59 286r62 13|293e17
+51O9*LARGE_INTEGER 9|59r27 65r29 70r25 74r35 111r38 197r32
+59M9*DWORD<5|45M9> 9|260r20
+65I9*BOOL<5|35I9>
+75N4*FALSE 9|117r65 175r65 201r65 286r68
+262U14*GetSystemTimeAsFileTime 9|121r7 173r10 182r10
+285U14*Sleep 9|260r13
+288V13*QueryPerformanceCounter{65I9} 9|117r10 175r13 201r10
+X 14 s-winext.ads
+35K22*Ext 9|34w19 39r21 14|125e21
+42V13*QueryPerformanceFrequency{13|65I9} 9|286r10
+
